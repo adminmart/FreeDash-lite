@@ -118,7 +118,7 @@
                             <h4 class="text-muted font-tofino-book mt-4 custom-lh">Free Bootstrap 4 Admin theme built with html/css, ready to use for your next project.</h4>
                             <div class="pt-4 pb-4">
 
-                                <a href="javascript:void(0)" class="btn btn-custom btn-info btn-shadow-v1 downloadcount font-tofino-medium" data-toggle="modal" data-target="#download-modal">
+                                <a href="http://adminmart.com/package.zip" class="btn btn-custom btn-info btn-shadow-v1 downloadcount font-tofino-medium">
 									<i data-feather="download" class="data-icon mr-2 mb-1"></i>
 									Free Download</a>
                                 <a href="http://adminmart.com/src/html/index.html" target="_blank" class="text-decoration-none font-17 text-dark ml-4 font-tofino-medium border-bottom border-dark">Live
@@ -128,7 +128,7 @@
                             <div class="d-flex align-items-center mt-4 justify-content-center justify-content-lg-start">
                                 <img src="src/assets/images/landingpage/brand-logos.png" alt="logos" />
                             </div>
-                            <div class="mt-4 pt-2">Total Downloads : <span class="badge badge-pill bg-light"><i class="fa fa-download p-1"></i> <span id="counter"><?php echo $counter ; ?></span></span></div>
+                            <!--<div class="mt-4 pt-2">Total Downloads : <span class="badge badge-pill bg-light"><i class="fa fa-download p-1"></i> <span id="counter"><?php echo $counter ; ?></span></span></div>-->
                         </div>
                         <div class="col-lg-7">
                             <img class="banner-img mt-md-4 mt-lg-0" src="src/assets/images/landingpage/banne-img.png" alt="db">
@@ -153,7 +153,7 @@
                 <div class="container bg-section py-5 my-0 my-lg-4">
                     <div class="row mt-0 mt-md-5">
                         <div class="col-lg-8 p-0">
-                            <img src="src/assets/images/landingpage/section-img.png" class="img-fluid mr-4">
+                            <img src="src/assets/images/landingpage/section-img.png" class="img-fluid mr-4" style="margin-top:-20px;">
                         </div>
                         <div class="col-lg-4">
                             <h2 class="font-gilmer-heavy mt-4 mt-lg-0 feature-title">Clean and Modern User Interface with Easy to Use Code</h2>
@@ -173,7 +173,7 @@
                                         class="stroke-primary list-icon mr-2"></i> 5+ Chart Examples & more...</li>
                             </ul>
 							<div class="pt-3 pb-4">
-                                <a href="javascript:void(0)" class="btn downloadcount btn-custom btn-info btn-shadow-v1 font-tofino-medium" data-toggle="modal" data-target="#download-modal">
+                                <a href="http://adminmart.com/package.zip" class="btn downloadcount btn-custom btn-info btn-shadow-v1 font-tofino-medium" >
 									<i data-feather="download" class="data-icon mr-2 mb-1"></i>
 									Free Download</a>
                                 <a href="http://adminmart.com/src/html/index.html" target="_blank" class="text-decoration-none text-dark font-17 ml-4 font-tofino-medium border-bottom border-dark">Live
@@ -234,7 +234,7 @@
                             </div>
 						</div>
 						<div class="col-lg-7 pl-4">
-							<img src="src/assets/images/landingpage/right-img.png" class="feature-img ml-3 pl-1">
+							<img src="src/assets/images/landingpage/right-img.png" style="margin-top:-20px;" class="feature-img ml-3 pl-1">
 						</div>
 	                </div>
 				</div>
@@ -255,10 +255,10 @@
 							<span class="font-tofino-regular">Bootstrap Version 4.3.1</span>
 						</div>
 						<div class="text-center py-3 py-lg-0">
-							<span class="font-tofino-regular">License <a href="https://opensource.org/licenses/MIT" targt="_blank" class="text-decoration-none border-bottom border-info ml-2">MIT License</a></span>
+							<span class="font-tofino-regular">License <a href="https://opensource.org/licenses/MIT" class="text-decoration-none border-bottom border-info ml-2" target="_blank">MIT License</a></span>
 						</div>
 						<div class="text-center py-3 py-lg-0">
-							<span class="font-tofino-regular"><a href="#" class="text-decoration-none border-bottom border-info ml-2">View Change Log</a></span>
+							<span class="font-tofino-regular"><a target="_blank" href="#" class="text-decoration-none border-bottom border-info ml-2">View Change Log</a></span>
 						</div>
 					</div>
 				</div>
@@ -267,7 +267,7 @@
 			<!-- Link section -->
 			<!-- ============================================================== -->
 			<div class="my-5 text-center">
-                <a href="javascript:void(0)" class="btn btn-custom btn-info downloadcount btn-shadow-v1 font-tofino-medium" data-toggle="modal" data-target="#download-modal">
+                <a href="http://adminmart.com/package.zip" class="btn btn-custom btn-info downloadcount btn-shadow-v1 font-tofino-medium">
 					<i data-feather="download" class="data-icon mr-2 mb-1"></i>
 					Free Download</a>
                 <a href="http://adminmart.com/src/html/index.html" target="_blank" class="text-decoration-none text-dark font-17 ml-4 font-tofino-medium border-bottom border-dark">Live
