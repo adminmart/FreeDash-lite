@@ -1,0 +1,90 @@
+.stats {
+    height: 280px;
+
+    .ct-series-a .ct-area {
+        fill-opacity: 0.2;
+        fill: transparent;
+    }
+
+    .ct-series-a .ct-line,
+    .ct-series-a .ct-point {
+        stroke: $primary;
+        stroke-width: 3px;
+    }
+
+    .ct-series-a .ct-point {
+        stroke-width: 3px;
+    }
+}
+
+// **************************************************
+// For Chartist Tooltips
+// Tooltip for the chartist charts
+// **************************************************
+
+.chartist-tooltip {
+    position: absolute;
+    display: inline-block;
+    opacity: 0;
+    border-radius: 20px;
+    padding: 5px 20px;
+    background: $primary;
+    color: $gray-0;
+    text-align: center;
+    pointer-events: none;
+    z-index: 1;
+    font-weight: 500;
+    font-size: 13px;
+    -webkit-transition: opacity 0.2s linear;
+    -moz-transition: opacity 0.2s linear;
+    -o-transition: opacity 0.2s linear;
+    transition: opacity 0.2s linear;
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        width: 0;
+        height: 0;
+        margin-left: -5px;
+        border: 5px solid transparent;
+        border-top-color: $primary;
+    }
+}
+
+.ct-label,
+.c3-chart-arcs-title {
+    color: $gray-500;
+    fill: $gray-500;
+}
+
+// **************************************************
+// For Dashboard Total sales Chart
+// ************************************************** 
+#campaign-v2 {
+    .c3-chart-arc path {
+        stroke-width: 4px;
+    }
+}
+
+#visitbylocate {
+
+    .jvectormap-zoomin,
+    .jvectormap-zoomout {
+        display: none;
+    }
+}
+
+.chartist-tooltip {
+    position: relative;
+
+    &.tooltip-show {
+        opacity: 1;
+    }
+}
+
+.ct-series-a .ct-bar,
+.ct-series-a .ct-line {
+    stroke: $primary;
+}

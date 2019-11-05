@@ -1,0 +1,48 @@
+// (Required file)
+@import 'bootstrap/functions';
+//@import 'bootstrap/variables';
+@import 'config/default/variables';
+@import 'config/default/custom-variables';
+
+
+// Import Bootstrap source files (Required file)
+@import 'bootstrap/bootstrap';
+
+// Structure
+@import 'custom/structure/layout';
+@import 'custom/structure/preloader';
+@import 'custom/structure/navbar';
+@import 'custom/structure/sidebar';
+
+// Theme Colors
+@import 'custom/theme-colors/theme-colors';
+
+// Components
+@import 'custom/components/tables';
+@import 'custom/components/breadcrumb';
+@import 'custom/components/buttons';
+@import 'custom/components/reboot';
+@import 'custom/components/card';
+@import 'custom/components/forms';
+@import 'custom/components/dropdown';
+@import 'custom/components/progress';
+@import 'custom/components/modal';
+@import 'custom/components/tabs';
+
+// Pages
+@import 'custom/pages/dashboard';
+@import 'custom/pages/chat-app';
+@import 'custom/pages/grid';
+@import 'custom/pages/authentication';
+@import 'custom/pages/landingpage';
+
+// Plugins
+@import 'custom/plugins/perfect-scrollbar';
+@import 'custom/plugins/chartist-charts';
+@import 'custom/plugins/calendar';
+
+// Icons
+@import 'icons/icons';
+
+// Fonts
+@import 'fonts/landingpage_fonts';

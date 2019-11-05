@@ -1,0 +1,277 @@
+// Default Landingpage Fonts
+.landingpage-fonts {
+    // 
+    // Fonts classes for Landingpage
+    // 
+
+    .font-tofino-regular {
+        font-family: 'TofinoPersonal-Regular';
+    }
+
+    .font-tofino-book {
+        font-family: 'TofinoPersonal-Book';
+    }
+
+    .font-tofino-medium {
+        font-family: 'TofinoPersonal-Medium';
+    }
+
+    .font-gilmer-heavy {
+        font-family: 'Gilmer-Heavy';
+    }
+
+    .font-gilmer-bold {
+        font-family: 'Gilmer-Bold';
+    }
+
+    .font-gilmer-regular {
+        font-family: 'Gilmer-Regular';
+    }
+
+    .font-gilmer-medium {
+        font-family: 'Gilmer-Medium';
+    }
+
+	font-family: 'TofinoPersonal-Regular',sans-serif;
+	color: $lp-body-color;
+	h1 {
+		font-size: 39px;
+	}
+	.page-wrapper {
+		display: block;
+		background: $white;
+	}
+	.navbar-light .navbar-nav .nav-link {
+	    color: #616b7a;
+	}
+	.btn-secondary {
+	    background-color: $lp-secondary;
+	    border-color: $lp-secondary;
+	}
+	.text-warning {
+		color: $lp-warning;
+	}
+	.bg-light {
+		background: $lp-light;
+	}
+	.font-21 {
+		font-size: 21px;
+	}
+	.font-17 {
+		font-size: 17px;
+	}
+    h1,h2,h3,h4,h5,h6 {
+        font-family: 'Gilmer-Heavy',sans-serif;
+        color: $lp-heading-color;
+    }
+}
+
+
+
+// 
+// Style For Landingpage
+// 
+
+.btn-custom {
+    padding: 15px 31px;
+    font-size: 17px;
+    border-radius: 50px;
+}
+
+.img-shadow {
+    box-shadow: 0px 0px 30px rgba(103, 119, 157, 0.3);
+}
+
+.btn-shadow {
+    box-shadow: 0px 0px 20px rgba(103, 119, 157, 0.3);
+}
+
+.btn-shadow-v1 {
+    box-shadow: 0px 3px 15px 0px rgba(95, 118, 232, 0.3);
+}
+
+.custom-lh {
+    line-height: 35px;
+}
+
+.bg-banner {
+	background: url(../../assets/images/landingpage/banner-bg.png) right 3% top no-repeat;
+	background-size: 636px 569px;
+}
+
+.bg-section {
+	background: url(../../assets/images/landingpage/section-bg.png) left center  no-repeat;
+    background-size: 764px 677px;
+}
+
+.bg-section-v2 {
+	background: url(../../assets/images/landingpage/section-bg.png) center right 26% no-repeat;
+	background-size: 598px 536px;
+}
+
+.feature-title {
+	font-size: 39px;
+	letter-spacing: -1px;
+}
+
+.topbar-v1 {
+    .header-banner {
+        padding-top: 50px;
+        padding-bottom: 120px;
+    }
+}
+
+.topbar-v2 {
+    .header-banner {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+}
+
+.overlay {
+    .overlay-buttons {
+        position: absolute;
+        height: 100%;
+        background: rgba(31, 28, 46, 0.85);
+        display: none;
+        width: 100%;
+        top: 0px;
+        align-items: center;
+        justify-content: center;
+
+        .custom-btn {
+            border-radius: 100%;
+            border: 1px solid rgba(255, 255, 255, .5);
+            color: $white;
+            font-size: 15px;
+            width: 50px;
+            height: 50px;
+            padding: 14px 15px;
+            line-height: 23px;
+
+            &:hover {
+                opacity: .7;
+            }
+        }
+    }
+
+    &:hover {
+        .overlay-buttons {
+            display: flex;
+        }
+    }
+}
+
+.product-description {
+    padding: 30px 30px 20px;
+}
+
+.list-icon {
+    height: 19px;
+    width: 19px;
+}
+
+.feature-list li {
+	line-height: 35px;
+}
+
+.stroke-primary {
+    stroke: $primary;
+}
+
+.icon2 {
+    background: url(../../assets/images/landingpage/icon-sprite.jpg) no-repeat;
+    display: inline-block;
+
+    &.feature-icon {
+        width: 50px;
+        height: 50px;
+
+        &.feature-icon1 {
+            background-position: -11px -15px;
+        }
+
+        &.feature-icon2 {
+            background-position: -81px -15px;
+        }
+
+        &.feature-icon3 {
+            background-position: -155px -15px;
+        }
+
+        &.feature-icon4 {
+            background-position: -231px -15px;
+        }
+    }
+}
+
+.card-custom-shadow{
+    box-shadow: 0px 2px 7px 0px rgba(42, 53, 68, 0.09);
+}
+
+// 
+// Responsive Style here for Landingpage
+// 
+
+@include media-breakpoint-up(md) {
+	.banner-img {
+		margin-top: -100px;
+	}
+}
+
+@include media-breakpoint-only(md) {
+	.live-box {
+        padding: 30px;
+        padding-bottom: 0;
+    } 
+	.topbar-v2 {
+	    .header-banner {
+	        padding-bottom: 0px;
+	    }
+	}
+	.feature1,
+    .header-banner {
+        text-align: center;
+    }
+}
+
+
+@include media-breakpoint-down(sm) {
+	.feature1,
+    .header-banner {
+        text-align: center;
+    }
+    .banner-img {
+        max-width: 100%;
+        height: auto;
+    }
+	.navbar-collapse {
+        padding: 10px 0;
+        .navbar-nav {
+            .nav-item:last-child {
+                padding-left: 0 !important;
+                .btn {
+                    width: 100%;
+                }
+            }
+        }
+    }
+	.topbar-v2 {
+	    .header-banner {
+	        padding-bottom: 0px;
+	    }
+	}
+	.brand-img {
+		width: 142px;
+	}
+	.spacer {
+	    padding: 80px 0 0 0;
+	}
+	.btn-custom {
+    	padding: 17px 22px;
+	}
+	.feature-img {
+		width: 100%;
+	}
+}
+

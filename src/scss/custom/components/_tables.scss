@@ -1,0 +1,31 @@
+/*******************
+Table Cell
+*******************/
+.no-wrap {
+
+    td,
+    th {
+        white-space: nowrap;
+    }
+}
+
+.table thead th,
+.table th {
+    font-weight: 500;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.v-middle {
+
+    td,
+    th {
+        vertical-align: middle;
+    }
+}
+
+.dataTables_wrapper {
+    padding: 0;
+}

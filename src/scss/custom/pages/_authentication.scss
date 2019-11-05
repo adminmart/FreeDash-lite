@@ -1,0 +1,28 @@
+.auth-wrapper {
+    min-height: 100vh;
+
+    .auth-box {
+        box-shadow: $shadow;
+        max-width: 800px;
+        margin: 5% 0;
+        position: relative;
+
+        .modal-bg-img {
+            background-size: cover;
+            background-position: center center;
+            min-height: 300px;
+        }
+    }
+
+    #recoverform {
+        display: none;
+    }
+}
+
+.bg-facebook {
+    background-color: #3b5a9a;
+}
+
+.bg-twitter {
+    background-color: #56adf2;
+}

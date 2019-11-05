@@ -1,0 +1,28 @@
+// top leaders table
+
+.popover-item {
+    margin-left: -15px;
+    border: 2px solid $white;
+    &:hover {
+        z-index: 10;
+        position: relative;
+    }
+}
+
+// Activity Timeline
+.activity {
+    .border-left-line {
+        border-left: 1px solid $border-color;
+        position: relative;
+        margin-left: 17px;
+
+        .btn-item {
+            z-index: 1;
+            margin-left: -22px;
+        }
+
+        &:last-child {
+            border-left: 0;
+        }
+    }
+}

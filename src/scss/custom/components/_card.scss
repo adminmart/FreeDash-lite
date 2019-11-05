@@ -1,0 +1,25 @@
+// common card defalt margin setting here
+.card,
+.card-group {
+    margin-bottom: 30px;
+}
+
+// Common Card style settings here
+.card {
+    box-shadow: 0 3px 9px 0 rgba(169, 184, 200, .15);
+    -webkit-box-shadow: 0 3px 9px 0 rgba(169, 184, 200, .15);
+    -moz-box-shadow: 0 3px 9px 0 rgba(169, 184, 200, .15);
+
+    .card-subtitle {
+        font-weight: $font-weight-light;
+        margin-bottom: 10px;
+        color: $text-muted;
+    }
+
+    .card-title {
+        position: relative;
+        font-weight: $font-weight-medium;
+        margin-bottom: 10px;
+        color:$gray-900;
+    }
+}

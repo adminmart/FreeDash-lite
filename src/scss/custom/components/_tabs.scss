@@ -1,0 +1,22 @@
+// 
+// nav-bordered
+//
+
+.nav-tabs.nav-bordered {
+    border-bottom: 2px solid rgba($gray-600, 0.2);
+
+    .nav-item {
+        margin-bottom: -2px;
+    }
+
+    li {
+        a {
+            border: 0;
+            padding: 0.625rem 1.25rem;
+        }
+
+        a.active {
+            border-bottom: 2px solid $primary;
+        }
+    }
+}

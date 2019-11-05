@@ -1,0 +1,208 @@
+    /*******************
+ General Topbar
+*******************/
+
+.topbar {
+    position: relative;
+    z-index: 50;
+    transition: $transitions;
+    background: transparent;
+
+    .navbar-collapse {
+        padding: 0px 10px 0 0;
+        border-bottom: 1px solid $border-color;
+    }
+
+    .top-navbar {
+        padding: 0px;
+        min-height: $topbar-height;
+
+        .navbar-header {
+            line-height: $topbar-height;
+            background: transparent;
+            box-shadow: 0 -7px 9px 0 rgba(169, 184, 200, .15);
+            -webkit-box-shadow: 0 -7px 9px 0 rgba(169, 184, 200, .15);
+            -moz-box-shadow: 0 -7px 9px 0 rgba(169, 184, 200, .15);
+
+            .navbar-brand {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin: 0px;
+                padding: $topbar-navbrand-padding;
+                height: $topbar-height;
+
+                .dark-logo {
+                    display: none;
+                }
+
+                .logo-icon {
+                    margin-right: 5px;
+                }
+            }
+        }
+
+        .navbar-nav>.nav-item>.nav-link {
+            padding: $topbar-navlink-padding;
+            font-size: $topbar-navlink-font-size;
+            line-height: $topbar-height;
+
+            .notify-no {
+                position: absolute;
+                top: 17px;
+                right: 4px;
+                line-height: 11px;
+                padding: 4px 6px;
+            }
+        }
+
+        .navbar-nav>.nav-item {
+            transition: 0.2s ease-in;
+        }
+    }
+
+    .mailbox {
+        .message-center {
+            .message-item {
+                &:hover {
+                    background: $gray-100;
+                }
+
+                .message-title {
+                    color: $gray-900;
+                }
+            }
+        }
+    }
+
+    .user-dd {
+        min-width: 280px;
+    }
+
+    .nav-toggler,
+    .topbartoggler {
+        color: $theme-light;
+        padding: 0 15px;
+    }
+
+    // For Search bar in header
+    .customize-input {
+        position: relative;
+
+        .form-control {
+            padding: 13px 43px 13px 28px;
+            color: $gray-500;
+            display: inline-block;
+            line-height: 13px;
+        }
+
+        .form-control-icon {
+            position: absolute;
+            top: 30px;
+            right: 14px;
+            height: 20px;
+            width: 20px;
+        }
+
+    }
+}
+
+/*******************
+Designed dropdown
+******************/
+.topbar {
+    .dropdown-menu {
+        padding-top: 0px;
+        border: 0px;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.1);
+        -webkit-box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.1);
+
+        .with-arrow {
+            position: absolute;
+            height: 10px;
+            overflow: hidden;
+            width: 40px;
+            top: -10px;
+
+            >span {
+                @extend %rotate45;
+                background-color: $gray-0;
+                width: 15px;
+                height: 15px;
+                top: 3px;
+                left: 15px;
+                position: absolute;
+                content: "";
+                -moz-border-radius: 6px 0 0 0;
+                border-radius: 6px 0 0 0;
+            }
+        }
+
+        &.dropdown-menu-right {
+            .with-arrow {
+                right: 0px;
+
+                >span {
+                    right: 20px;
+                    left: auto;
+                }
+            }
+        }
+    }
+    .dropdown-toggle::after{
+        display:none;
+    }
+}
+
+/*******************
+Topbar Responsive
+******************/
+
+@include media-breakpoint-down(sm) {
+    .topbar .top-navbar {
+
+        .navbar-collapse.show,
+        .navbar-collapse.collapsing {
+            display: block;
+            width: 100%;
+            border-top: 1px solid $border;
+        }
+
+        .navbar-nav {
+            flex-direction: row;
+
+            .dropdown {
+                position: static;
+            }
+        }
+
+        .navbar-nav>.nav-item>.nav-link {
+            padding: 0 10px;
+        }
+
+        .navbar-header {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            justify-content: space-between;
+        }
+
+        .dropdown-menu {
+            position: absolute;
+            width: 100%;
+
+            .with-arrow {
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+    .mailbox {
+        .message-center {
+            height: 145px !important;
+        }
+    }
+}

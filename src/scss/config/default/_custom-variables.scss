@@ -1,0 +1,124 @@
+// -------------------------------
+// Theme Colors
+// -------------------------------
+
+$themecolor: $blue;
+$theme-light: #fff;
+$theme-dark: #212529;
+$background-alt: #262d35;
+
+// ---------------------------------------------
+// Skins For changing navbar,sidebar colors
+// ---------------------------------------------
+$gradient-bg: -webkit-linear-gradient(0deg, rgb(63, 80, 246) 0%, rgb(105, 76, 254) 100%);
+$skin1: $gradient-bg;
+$skin2: #fe5419;
+$skin3: #00b0ff;
+$skin4: #6659f7;
+$skin5: #1d2e42;
+$skin6: #fff;
+
+$gray-0: $white;
+
+// -----------------------------
+// Shadow default
+// -----------------------------
+
+$shadow: 0px 3px 9px 0px rgba(162, 176, 190, 0.15);
+$custom-shadow: 0 2px 9px 0 rgba(169, 184, 200, .2);
+
+$custom-radius: 60px;
+
+// ---------------------------------------------
+// Transitions
+// ---------------------------------------------
+
+$transitions:0.2s ease-in;
+$transparent-dark-bg:rgba(0, 0, 0, 0.05);
+
+%square {
+    border-radius: 0px
+}
+
+%rotate45 {
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+}
+
+// -------------------------------
+// Header settings here
+// -------------------------------
+
+$topbar-height: 80px;
+$topbar-navlink-padding: 0px 15px;
+$topbar-navlink-font-size: 1rem;
+$topbar-navbrand-padding: 0 30px 0 30px;
+$minisidebar-topbar-navbrand-padding: 0px 8px;
+
+// Breadcrumb
+$breadcrumb-text: #8392a5;
+
+// -------------------------------
+// Sidebar Settings here
+// -------------------------------
+
+//$sidebar: $theme-light;
+$sidebar-alt: #e8eff0;
+$sidebar-text: #fff;
+$sidebar-icons: #fff;
+$sidebar-text-dark: #818181;
+$sidebar-icons-dark: #9eabc0;
+$list-divider-margin: 10px 0 20px 30px;
+$list-divider-margin-minisidebar: 10px;
+
+$sidebar-width-full: 260px;
+$sidebar-width-mini: 65px;
+$mailbox-width: 300px;
+$mailbox-height: 200px;
+
+$sidebar-selected-bg: linear-gradient(to right, #8971ea, #7f72ea, #7574ea, #6a75e9, #5f76e8);
+
+$sidebar-link-padding: 12px 30px;
+$minisidebar-link-padding: 12px 15px;
+$sidebar-icon-size: 20px;
+$sidebar-first-level-padding: 0 0 10px 0;
+$sidebar-first-level-link-padding: 12px 15px;
+$sidebar-first-level-icon-size: 20px;
+
+// -------------------------------
+// Page Layout Settings
+// -------------------------------
+
+$boxed-width: 1200px; // boxed layout width
+
+$container-height: 329px; // For menu-sidebar demo before page-wrapper class
+$page-content-right-spacing: 30px; // page content padding
+$lft: left;
+$rgt: right;
+
+
+// -------------------------------
+// Sticky Left & Right Sidebar
+// -------------------------------
+$left-part-width: 260px;
+
+$custom-border-color: rgba(255, 255, 255, 0.3);
+$border: rgba(0, 0, 0, .1);
+
+$font-weight-medium: 500;
+
+$droptitle-bg: url(../../assets/images/background/img5.png) no-repeat;
+
+// Chat widget
+$chat-primary-user-bg: #e4fbf8;
+$chat-secondary-user-bg: #eef5ff;
+
+// landingpage color
+$lp-secondary: #e9eef3;
+$lp-warning: #ffba00;
+$lp-light: #f9fbfd;
+$lp-body-color: #616b7a;
+$lp-heading-color: #2a3544;

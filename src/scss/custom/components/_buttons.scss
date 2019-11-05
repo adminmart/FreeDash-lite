@@ -1,0 +1,40 @@
+//Buttons
+
+.btn-circle {
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 20px;
+    padding: 10px;
+
+    .feather {
+        height: 18px;
+        width: 18px;
+    }
+}
+
+.btn-circle-lg {
+    @extend .btn-circle;
+    width: 57px;
+    height: 57px;
+    line-height: 35px;
+
+    .feather {
+        height: 22px;
+        width: 22px;
+    }
+}
+
+.btn-rounded {
+    border-radius: 2em;
+}
+
+.btn-list {
+    margin-left: -8px;
+    margin-bottom: -12px;
+
+    .btn {
+        margin-bottom: 12px;
+        margin-left: 8px;
+    }
+}

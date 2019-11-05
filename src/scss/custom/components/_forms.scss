@@ -1,0 +1,50 @@
+// *************************************************
+// Custom Select Menu
+// *************************************************
+.custom-select {
+    background: $custom-select-indicator right 1.1rem center no-repeat;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -o-appearance: none;
+    background-size: auto;
+}
+
+.custom-select-set {
+    height: 44px;
+    line-height: 25px;
+    padding: 10px 45px 13px 30px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+// Form row Separator
+
+.r-separator .form-group {
+    border-bottom: 1px solid $border-color;
+
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.striped-rows .row:nth-child(odd) {
+    background-color: $gray-100;
+}
+
+.b-form .row {
+    border-bottom: 1px solid $border-color;
+    margin-bottom: 0;
+    padding: 15px 0;
+
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.b-label {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
