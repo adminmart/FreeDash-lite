@@ -33,7 +33,7 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="src/assets/images/favicon.png">
-    <title>AdminMart admin Template - The Ultimate Multipurpose admin template</title>
+    <title>AdminMart - The Ultimate Multipurpose Bootstrap 4 Admin Template</title>
     <!-- Custom CSS -->
     <link href="src/dist/css/style.min.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -41,7 +41,7 @@
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+	<![endif]-->
     <script src="src/assets/libs/jquery/dist/jquery.min.js"></script>
     
     <!-- Sendinblue Download Form CSS (We recommend to place the below code in head tag of your website html) -->
@@ -103,24 +103,24 @@
                         <a class="navbar-brand pr-0 pr-md-3 mr-0" href="#">
                             <img src="src/assets/images/landingpage/logo.png" class="brand-img" alt="logo">
                         </a>
-                        <ul class="navbar-nav">
+						<ul class="navbar-nav">
                             <li class="nav-item border-left mt-1">
                                 <a class="nav-link py-0 d-flex align-items-center" href="docs/docs.html" target="_blank">
-                                    <i data-feather="file-text" class="data-icon mr-2 ml-2 ml-md-0"></i>
-                                    <span class="font-tofino-medium font-16">Documentation</span>
-                                </a>
+									<i data-feather="file-text" class="data-icon mr-2 ml-2 ml-md-0"></i>
+									<span class="font-tofino-medium font-16">Documentation</span>
+								</a>
                             </li>
                         </ul>
                     </nav>
                     <div class="row header-banner align-items-start">
                         <div class="col-lg-5 mt-5 pt-0 pt-lg-5">
                             <h2 class="font-gilmer-heavy feature-title">Build Web Application or Dashboard Faster with AdminMart</h2>
-                            <h4 class="text-muted font-tofino-book mt-4 custom-lh">Free Bootstrap4 Admin theme built with html/css, ready to use for your next project.</h4>
+                            <h4 class="text-muted font-tofino-book mt-4 custom-lh">Free Bootstrap 4 Admin theme built with html/css, ready to use for your next project.</h4>
                             <div class="pt-4 pb-4">
 
-                                <a href="javascript:void(0)" class="btn btn-custom btn-info btn-shadow-v1 font-tofino-medium" data-toggle="modal" data-target="#download-modal">
-                                    <i data-feather="download" class="data-icon mr-2 mb-1"></i>
-                                    Free Download</a>
+                                <a href="http://adminmart.com/package.zip" class="btn btn-custom btn-info btn-shadow-v1 downloadcount font-tofino-medium">
+									<i data-feather="download" class="data-icon mr-2 mb-1"></i>
+									Free Download</a>
                                 <a href="http://adminmart.com/src/html/index.html" target="_blank" class="text-decoration-none font-17 text-dark ml-4 font-tofino-medium border-bottom border-dark">Live
                                     Preview</a>
                             </div>
@@ -128,7 +128,7 @@
                             <div class="d-flex align-items-center mt-4 justify-content-center justify-content-lg-start">
                                 <img src="src/assets/images/landingpage/brand-logos.png" alt="logos" />
                             </div>
-                            <div class="mt-4 pt-2">Total Downloads : <span class="badge badge-pill bg-light"><i class="fa fa-download p-1"></i> <span id="counter"><?php echo $counter ; ?></span></span></div>
+                            <!--<div class="mt-4 pt-2">Total Downloads : <span class="badge badge-pill bg-light"><i class="fa fa-download p-1"></i> <span id="counter"><?php echo $counter ; ?></span></span></div>-->
                         </div>
                         <div class="col-lg-7">
                             <img class="banner-img mt-md-4 mt-lg-0" src="src/assets/images/landingpage/banne-img.png" alt="db">
@@ -152,30 +152,30 @@
             <section>
                 <div class="container bg-section py-5 my-0 my-lg-4">
                     <div class="row mt-0 mt-md-5">
-                        <div class="col-lg-8">
-                            <img src="src/assets/images/landingpage/section-img.png" class="img-fluid pr-4 mr-2">
+                        <div class="col-lg-8 p-0">
+                            <img src="src/assets/images/landingpage/section-img.png" class="img-fluid mr-4" style="margin-top:-20px;">
                         </div>
                         <div class="col-lg-4">
                             <h2 class="font-gilmer-heavy mt-4 mt-lg-0 feature-title">Clean and Modern User Interface with Easy to Use Code</h2>
-                            <h4 class="text-muted font-tofino-book mt-4 custom-lh">Free Bootstrap4 Admin theme built with html/css, ready to use for your next project.</h4>
-                            <ul class="list-unstyled my-4 feature-list">
+							<h4 class="text-muted font-tofino-book mt-4 custom-lh">We follow standard web rules to make our code up to current industry standards.</h4>
+							<ul class="list-unstyled my-4 feature-list">
                                 <li class="font-tofino-regular font-15 my-1"><i data-feather="check-circle"
-                                        class="stroke-primary list-icon mr-2"></i> Minimal base Design
+                                        class="stroke-primary list-icon mr-2"></i> Minimal Design Base
                                 </li>
                                 <li class="font-tofino-regular font-15 my-1"><i data-feather="check-circle"
-                                        class="stroke-primary list-icon mr-2"></i> Latest Bootstrap Version
+                                        class="stroke-primary list-icon mr-2"></i> Bootstrap Version: 4.3.1
                                 </li>
                                 <li class="font-tofino-regular font-15 my-1"><i data-feather="check-circle"
                                         class="stroke-primary list-icon mr-2"></i> 25+ Page Templates</li>
-                                <li class="font-tofino-regular font-15 my-1"><i data-feather="check-circle"
+								<li class="font-tofino-regular font-15 my-1"><i data-feather="check-circle"
                                         class="stroke-primary list-icon mr-2"></i> 5+ Table & Form Explamples</li>
-                                <li class="font-tofino-regular font-15 my-1"><i data-feather="check-circle"
-                                        class="stroke-primary list-icon mr-2"></i> 5+ Chart Examples & Lots more...</li>
+								<li class="font-tofino-regular font-15 my-1"><i data-feather="check-circle"
+                                        class="stroke-primary list-icon mr-2"></i> 5+ Chart Examples & more...</li>
                             </ul>
-                            <div class="pt-3 pb-4">
-                                <a href="javascript:void(0)" class="btn btn-custom btn-info btn-shadow-v1 font-tofino-medium" data-toggle="modal" data-target="#download-modal">
-                                    <i data-feather="download" class="data-icon mr-2 mb-1"></i>
-                                    Free Download</a>
+							<div class="pt-3 pb-4">
+                                <a href="http://adminmart.com/package.zip" class="btn downloadcount btn-custom btn-info btn-shadow-v1 font-tofino-medium" >
+									<i data-feather="download" class="data-icon mr-2 mb-1"></i>
+									Free Download</a>
                                 <a href="http://adminmart.com/src/html/index.html" target="_blank" class="text-decoration-none text-dark font-17 ml-4 font-tofino-medium border-bottom border-dark">Live
                                     Preview</a>
                             </div>
@@ -187,24 +187,24 @@
             <!-- why project section part -->
             <!-- ============================================================== -->
             <section class="py-5 my-0 my-lg-4 position-relative">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-7">
-                            <h1 class="font-gilmer-heavy">Why choose AdminMart for your Project?</h1>
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row mt-5 bg-section-v2">
-                        <div class="col-lg-5">
-                            <div class="">
+				<div class="container">
+	                <div class="row">
+	                    <div class="col-lg-7">
+							<h1 class="font-gilmer-heavy">Why choose AdminMart<br> for your Project?</h1>
+	                    </div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row mt-5 bg-section-v2">
+						<div class="col-lg-5">
+							<div class="">
                                 <div class="card card-custom-shadow">
                                     <div class="card-body">
                                         <div class="d-flex p-3">
                                             <div class="pr-4"><span class="icon2 feature-icon feature-icon1"></span></div>
                                             <div class="">
                                                 <h6 class="font-18">Free for Commercial Projects</h6>
-                                                <p class="font-tofino-regular mt-4 mb-0">The design effort we put & the team we  world class. Our all template.</p>
+                                                <p class="font-tofino-regular mt-4 mb-0">Use our template in as many as commercial projects you want.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -215,7 +215,7 @@
                                             <div class="pr-4"><span class="icon2 feature-icon feature-icon4"></span></div>
                                             <div class="">
                                                 <h6 class="font-18">Lifetime Free Updates</h6>
-                                                <p class="font-tofino-regular mt-4 mb-0">The design effort we put & the team we  world class. Our all template.</p>
+                                                <p class="font-tofino-regular mt-4 mb-0">We keep updating the template with new features & bootstrap version.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -226,70 +226,70 @@
                                             <div class="pr-4"><span class="icon2 feature-icon feature-icon2"></span></div>
                                             <div class="">
                                                 <h6 class="font-18">Ready to Use Elements</h6>
-                                                <p class="font-tofino-regular mt-4 mb-0">The design effort we put & the team we  world class. Our all template.</p>
+                                                <p class="font-tofino-regular mt-4 mb-0">We made sure to have things as easy as possible to use in your project.</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-7 pl-4">
-                            <img src="src/assets/images/landingpage/right-img.png" class="feature-img ml-3 pl-1">
-                        </div>
-                    </div>
-                </div>
+						</div>
+						<div class="col-lg-7 pl-4">
+							<img src="src/assets/images/landingpage/right-img.png" style="margin-top:-20px;" class="feature-img ml-3 pl-1">
+						</div>
+	                </div>
+				</div>
             </section>
-            <!-- ============================================================== -->
+			<!-- ============================================================== -->
             <!-- updation part -->
             <!-- ============================================================== -->
-            <section class="py-4 border-top border-bottom">
-                <div class="container">
-                    <div class="d-block d-lg-flex justify-content-between align-items-center">
-                        <div class="text-center py-3 py-lg-0">
-                            <span class="font-tofino-regular">Released 15th June, 2019</span>
-                        </div>
-                        <div class="text-center py-3 py-lg-0">
-                            <span class="font-tofino-regular">Updated 15th June, 2019</span>
-                        </div>
-                        <div class="text-center py-3 py-lg-0">
-                            <span class="font-tofino-regular">Bootstrap Version 4.3.1</span>
-                        </div>
-                        <div class="text-center py-3 py-lg-0">
-                            <span class="font-tofino-regular">License <a href="#" class="text-decoration-none border-bottom border-info ml-2">MIT License</a></span>
-                        </div>
-                        <div class="text-center py-3 py-lg-0">
-                            <span class="font-tofino-regular"><a href="#" class="text-decoration-none border-bottom border-info ml-2">View Change Log</a></span>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- ============================================================== -->
-            <!-- Link section -->
-            <!-- ============================================================== -->
-            <div class="my-5 text-center">
-                <a href="javascript:void(0)" class="btn btn-custom btn-info btn-shadow-v1 font-tofino-medium" data-toggle="modal" data-target="#download-modal">
-                    <i data-feather="download" class="data-icon mr-2 mb-1"></i>
-                    Free Download</a>
+			<section class="py-4 border-top border-bottom">
+				<div class="container">
+					<div class="d-block d-lg-flex justify-content-between align-items-center">
+						<div class="text-center py-3 py-lg-0">
+							<span class="font-tofino-regular">Released 15th June, 2019</span>
+						</div>
+						<div class="text-center py-3 py-lg-0">
+							<span class="font-tofino-regular">Updated 3rd November, 2019</span>
+						</div>
+						<div class="text-center py-3 py-lg-0">
+							<span class="font-tofino-regular">Bootstrap Version 4.3.1</span>
+						</div>
+						<div class="text-center py-3 py-lg-0">
+							<span class="font-tofino-regular">License <a href="https://opensource.org/licenses/MIT" class="text-decoration-none border-bottom border-info ml-2" target="_blank">MIT License</a></span>
+						</div>
+						<div class="text-center py-3 py-lg-0">
+							<span class="font-tofino-regular"><a target="_blank" href="#" class="text-decoration-none border-bottom border-info ml-2">View Change Log</a></span>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- ============================================================== -->
+			<!-- Link section -->
+			<!-- ============================================================== -->
+			<div class="my-5 text-center">
+                <a href="http://adminmart.com/package.zip" class="btn btn-custom btn-info downloadcount btn-shadow-v1 font-tofino-medium">
+					<i data-feather="download" class="data-icon mr-2 mb-1"></i>
+					Free Download</a>
                 <a href="http://adminmart.com/src/html/index.html" target="_blank" class="text-decoration-none text-dark font-17 ml-4 font-tofino-medium border-bottom border-dark">Live
                     Preview</a>
             </div>
-            <!-- ============================================================== -->
-            <!-- para section -->
-            <!-- ============================================================== -->
+			<!-- ============================================================== -->
+			<!-- para section -->
+			<!-- ============================================================== -->
             <section class="py-5">
-                <div class="container text-center">
-                    <div class="row justify-content-center">
-                        <div class="col-md-11">
-                            <p class="font-tofino-regular font-18">Are you looking for the best premium or <a href="#" class="text-dark font-tofino-medium">free Bootstrap Admin Templates</a>, UI Kits or Angular Dashboards for your projects? You are in the right place, as <a href="https://www.wrappixel.com/" class="text-dark font-tofino-medium">WrapPixel is here to offer you all of that and so much more</a>. You can find a variety of templates, bundles and a great number of features. In addition, you can get free as well as paid templates very fast.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            
-            <!-- Footer section -->
+				<div class="container text-center">
+					<div class="row justify-content-center">
+						<div class="col-md-11">
+							<p class="font-tofino-regular font-18">AdminMart is well designed and carefully coded Bootstrap 4 Admin Template. It comes with great and easy to customise dashboard design and lost of page templates. AdminMart is built with Responsive Bootstrap Framework and it is highly customisable. Also as it is based on HTML / CSS, it can be used widely for backend framework like asp.net, java, ruby on rails, larval, php etc. If you have any question regarding AdminMart, Kindly email us at info@adminmart.com</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<!-- Footer section -->
             <footer class="py-4">
                 <p class="mb-0 text-center">
-                    copyright 2019. All rights reserved by AdminMart.
+                    Copyright 2019. All rights reserved by AdminMart - Bootstrap 4 Admin Template.
                 </p>
             </footer>
         </div>
@@ -322,16 +322,16 @@
         </script>
 <script src="src/dist/js/feather.min.js"></script>
 <script type="text/javascript">
-    $(function () {
-        feather.replace();
-        $('a.nav-link, .dm-btn').on('click', function (event) {
-            var $anchor = $(this);
-            $('html, body').stop().animate({
-                scrollTop: $($anchor.attr('href')).offset().top - 10
-            }, 1000);
-            event.preventDefault();
-        });
-    }); 
+	$(function () {
+	    feather.replace();
+	    $('a.nav-link, .dm-btn').on('click', function (event) {
+	        var $anchor = $(this);
+	        $('html, body').stop().animate({
+	            scrollTop: $($anchor.attr('href')).offset().top - 10
+	        }, 1000);
+	        event.preventDefault();
+	    });
+	});	
 </script>
 
 <!-- AdminMart Download Form Modal -->
@@ -346,10 +346,10 @@
             </div>
             <!-- End - Modal Header -->
             <!-- Modal body -->
-            <div class="modal-body" style="background: #f5f8fa; padding:35px;">
+            <div class="modal-body">
                 <p>To download this template just enter your email please. You will receive your download link shortly.</p>
                 <div class="simple-download d-none">
-                    <form class="simple-download-form" method="POST" action="" >
+                    <form class="simple-download-form" method="POST" action="">
                         <p class="status alert alert-warning" role="alert" style="display: none;">Sending mail...</p>
                         <div class="form-group">
                             <input class="form-control emailid rounded-pill" maxlength="100" type="email" id="emailid" name="emailid" placeholder="Email Address" required />
@@ -359,7 +359,7 @@
                 </div>
                 <!-- Sendinblue Download Form (We recommend to place the below code where you want the form in your website html)  -->
                 <div class="sib-form p-0">
-                    <div id="sib-form-container" class="sib-form-container" >
+                    <div id="sib-form-container" class="sib-form-container">
                         <div id="error-message" class="sib-form-message-panel" style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-width:px; border-color:#ff4949;max-width:540px; border-width:px;">
                             <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
                                 <svg viewBox="0 0 512 512" class="sib-icon sib-notification__icon">
@@ -380,7 +380,7 @@
                             </div>
                         </div>
                         <div></div>
-                        <div id="sib-container" class="sib-container--large sib-container--vertical" style="padding: 0; background: #f5f8fa;">
+                        <div id="sib-container" class="sib-container--large sib-container--vertical" style="padding: 0;">
                             <form id="sib-form" method="POST" action="https://224e9a3e.sibforms.com/serve/MUIEAPepiJL3ZkX-FIEKUTyFtjtyCaUTXvsr9gCVS73gpCauR8ae7KEc_18hFUlfh6JsOTMr_m8TXjh1WlrHrjYUAAJQcDqAMspk_3dS8WQQ4wsm2dYZ_FreK4ADVHnHeTNgtyi0z2zDTzZo-savhMRuUK_qzLaoCIFaMEFj4q92dfDDO_VMolmKEnWmxAeWHo0nFyfokuXMJQva"
                                 data-type="subscription">
                                 <div class="form-group">
@@ -489,6 +489,10 @@
             }
         });
         e.preventDefault();
+    });
+    /*Dismiss model after few second**/
+    $('.sib-form-block__button').click(function() {
+        setTimeout(function() {$('#download-modal').modal('hide');}, 10000);
     });
 
 </script>
