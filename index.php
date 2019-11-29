@@ -43,7 +43,6 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <script src="src/assets/libs/jquery/dist/jquery.min.js"></script>
-    
     <!-- Sendinblue Download Form CSS (We recommend to place the below code in head tag of your website html) -->
     <style>
         @font-face {
@@ -118,7 +117,7 @@
                             <h4 class="text-muted font-tofino-book mt-4 custom-lh">Free Bootstrap4 Admin theme built with html/css, ready to use for your next project.</h4>
                             <div class="pt-4 pb-4">
 
-                                <a href="javascript:void(0)" class="btn btn-custom btn-info btn-shadow-v1 font-tofino-medium" data-toggle="modal" data-target="#download-modal">
+                                <a href="javascript:void(0)" class="btn btn-custom btn-info btn-shadow-v1 downloadcount123 font-tofino-medium" data-toggle="modal" data-target="#download-modal">
                                     <i data-feather="download" class="data-icon mr-2 mb-1"></i>
                                     Free Download</a>
                                 <a href="http://adminmart.com/src/html/index.html" target="_blank" class="text-decoration-none font-17 text-dark ml-4 font-tofino-medium border-bottom border-dark">Live
@@ -173,7 +172,7 @@
                                         class="stroke-primary list-icon mr-2"></i> 5+ Chart Examples & Lots more...</li>
                             </ul>
                             <div class="pt-3 pb-4">
-                                <a href="javascript:void(0)" class="btn btn-custom btn-info btn-shadow-v1 font-tofino-medium" data-toggle="modal" data-target="#download-modal">
+                                <a href="javascript:void(0)" class="btn downloadcount123 btn-custom btn-info btn-shadow-v1 font-tofino-medium" data-toggle="modal" data-target="#download-modal">
                                     <i data-feather="download" class="data-icon mr-2 mb-1"></i>
                                     Free Download</a>
                                 <a href="http://adminmart.com/src/html/index.html" target="_blank" class="text-decoration-none text-dark font-17 ml-4 font-tofino-medium border-bottom border-dark">Live
@@ -267,7 +266,7 @@
             <!-- Link section -->
             <!-- ============================================================== -->
             <div class="my-5 text-center">
-                <a href="javascript:void(0)" class="btn btn-custom btn-info btn-shadow-v1 font-tofino-medium" data-toggle="modal" data-target="#download-modal">
+                <a href="javascript:void(0)" class="btn btn-custom btn-info downloadcount123 btn-shadow-v1 font-tofino-medium" data-toggle="modal" data-target="#download-modal">
                     <i data-feather="download" class="data-icon mr-2 mb-1"></i>
                     Free Download</a>
                 <a href="http://adminmart.com/src/html/index.html" target="_blank" class="text-decoration-none text-dark font-17 ml-4 font-tofino-medium border-bottom border-dark">Live
@@ -349,7 +348,7 @@
             <div class="modal-body" style="background: #f5f8fa; padding:35px;">
                 <p>To download this template just enter your email please. You will receive your download link shortly.</p>
                 <div class="simple-download d-none">
-                    <form class="simple-download-form" method="POST" action="" >
+                    <form class="simple-download-form" method="POST" action="">
                         <p class="status alert alert-warning" role="alert" style="display: none;">Sending mail...</p>
                         <div class="form-group">
                             <input class="form-control emailid rounded-pill" maxlength="100" type="email" id="emailid" name="emailid" placeholder="Email Address" required />
@@ -359,7 +358,7 @@
                 </div>
                 <!-- Sendinblue Download Form (We recommend to place the below code where you want the form in your website html)  -->
                 <div class="sib-form p-0">
-                    <div id="sib-form-container" class="sib-form-container" >
+                    <div id="sib-form-container" class="sib-form-container">
                         <div id="error-message" class="sib-form-message-panel" style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-width:px; border-color:#ff4949;max-width:540px; border-width:px;">
                             <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
                                 <svg viewBox="0 0 512 512" class="sib-icon sib-notification__icon">
@@ -380,8 +379,8 @@
                             </div>
                         </div>
                         <div></div>
-                        <div id="sib-container" class="sib-container--large sib-container--vertical" style="padding: 0; background: #f5f8fa;">
-                            <form id="sib-form" method="POST" action="https://224e9a3e.sibforms.com/serve/MUIEAPepiJL3ZkX-FIEKUTyFtjtyCaUTXvsr9gCVS73gpCauR8ae7KEc_18hFUlfh6JsOTMr_m8TXjh1WlrHrjYUAAJQcDqAMspk_3dS8WQQ4wsm2dYZ_FreK4ADVHnHeTNgtyi0z2zDTzZo-savhMRuUK_qzLaoCIFaMEFj4q92dfDDO_VMolmKEnWmxAeWHo0nFyfokuXMJQva"
+                        <div id="sib-container" class="sib-container--large sib-container--vertical" style="padding: 0;background: #f5f8fa;">
+                            <form id="sib-form" method="POST" action="https://224e9a3e.sibforms.com/serve/MUIEAExF2xvtab7XGbac9qmSOZUgE8E43GASjV7JFU1FpmTubtKtrqW8PW50ZGiY1q4Wwbyd9GTHgHpma17OndyuQoEZ3EgjRMNfhauqYNOuS9E2H4a3015k8X0LcYoL6QpTq80g99ZRot6W9YYOhik6KEVDTtMxjbTAS9LuwVf8yO6PSKD4t6lncWioQQQaB2vNLEg6yMCer3-a"
                                 data-type="subscription">
                                 <div class="form-group">
                                     <div class="sib-input sib-form-block" style="padding: 0;">
