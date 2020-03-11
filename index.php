@@ -322,7 +322,11 @@ $(document).ready(function ($) {
        order: ["facebook-share","twitter-tweet"],
        counters: true,
        lazy: true
-    }
+    },
+    text: {
+      header: "Like us To Unlock This Content",
+      message: "This content is locked. Like us on Twitter, Facebook or Google plus to unlock it."
+    },
    });
 });
 </script>
