@@ -106,7 +106,7 @@
                             <div class="mt-4 pt-2">Total Downloads : <span class="badge badge-pill bg-light"><i class="fa fa-download p-1"></i> <span id="counter"><?php echo $counter ; ?></span></span></div>
                         </div>
                         <div class="col-lg-7">
-                            <img class="banner-img mt-md-4 mt-lg-0" src="src/assets/images/landingpage/banne-img.png" alt="db">
+                            <img class="banner-img mt-md-4 mt-lg-0" src="src/assets/images/landingpage/section-img.png" alt="db">
                         </div>
                     </div>
                 </div>
