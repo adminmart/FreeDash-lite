@@ -125,35 +125,43 @@
             <!-- ============================================================== -->
             
             <section>
-                <div class="container bg-section py-5 my-0 my-lg-4">
+                <div class="container py-5 my-0 my-lg-4">
                     <div class="row mt-0 mt-md-5">
-                        <div class="col-lg-8">
-                            <img src="src/assets/images/landingpage/section-img.png" class="img-fluid pr-4 mr-2">
+                        <div class="col-lg-4">
+                            <div class="card" style="background: #5f22ad">
+                                <div class="card-body text-white p-5">
+                                   <img src="src/assets/images/bootstrap-templates.png" alt="bootstrap-templates" class="mb-3">
+                                   <h3 class="mt-5 mb-4 text-white font-tofino-medium" style="line-height: 32px;">Stunning Bootstrap 4 Admin Templates</h3>
+                                   <p style="opacity: 0.5" class="font-tofino-regular mb-4 pb-2">Checkout largest collection of  best bootstrap admin and dashboard templates</p>
+                                   <a href="https://www.wrappixel.com/templates/category/bootstrap-templates/" class="text-white d-block" title="Checkout now">
+                                        <i class="fas fa-arrow-right"></i>
+                                   </a>
+                                 </div>   
+                            </div>    
                         </div>
                         <div class="col-lg-4">
-                            <h2 class="font-gilmer-heavy mt-4 mt-lg-0 feature-title">Clean and Modern User Interface with Easy to Use Code</h2>
-                            <h4 class="text-muted font-tofino-book mt-4 custom-lh">Free Bootstrap4 Admin theme built with html/css, ready to use for your next project.</h4>
-                            <ul class="list-unstyled my-4 feature-list">
-                                <li class="font-tofino-regular font-15 my-1"><i data-feather="check-circle"
-                                        class="stroke-primary list-icon mr-2"></i> Minimal base Design
-                                </li>
-                                <li class="font-tofino-regular font-15 my-1"><i data-feather="check-circle"
-                                        class="stroke-primary list-icon mr-2"></i> Latest Bootstrap Version
-                                </li>
-                                <li class="font-tofino-regular font-15 my-1"><i data-feather="check-circle"
-                                        class="stroke-primary list-icon mr-2"></i> 25+ Page Templates</li>
-                                <li class="font-tofino-regular font-15 my-1"><i data-feather="check-circle"
-                                        class="stroke-primary list-icon mr-2"></i> 5+ Table & Form Explamples</li>
-                                <li class="font-tofino-regular font-15 my-1"><i data-feather="check-circle"
-                                        class="stroke-primary list-icon mr-2"></i> 5+ Chart Examples & Lots more...</li>
-                            </ul>
-                            <div class="pt-3 pb-4">
-                                <a href="javascript:void(0)" class="btn downloadcount123 btn-custom btn-info btn-shadow-v1 font-tofino-medium" data-toggle="modal" data-target="#download-modal">
-                                    <i data-feather="download" class="data-icon mr-2 mb-1"></i>
-                                    Free Download</a>
-                                <a href="http://adminmart.com/src/html/index.html" target="_blank" class="text-decoration-none text-dark font-17 ml-4 font-tofino-medium border-bottom border-dark">Live
-                                    Preview</a>
-                            </div>
+                            <div class="card" style="background: #0099ff">
+                                <div class="card-body text-white p-5">
+                                   <img src="src/assets/images/react-templates.png" alt="react-templates" class="mb-3">
+                                   <h3 class="mt-5 mb-4 text-white font-tofino-medium" style="line-height: 32px;">Beautifully designed React Admin Templates</h3>
+                                   <p style="opacity: 0.5" class="font-tofino-regular mb-4 pb-2">Checkout largest collection of  best React admin and dashboard templates</p>
+                                   <a href="https://www.wrappixel.com/templates/category/react-templates/" class="text-white d-block" title="Checkout now">
+                                        <i class="fas fa-arrow-right"></i>
+                                   </a>
+                                 </div>   
+                            </div> 
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card" style="background: #df012a">
+                                <div class="card-body text-white p-5">
+                                   <img src="src/assets/images/angular-templates.png" alt="bootstrap-templates" class="mb-3">
+                                   <h3 class="mt-5 mb-4 text-white font-tofino-medium" style="line-height: 32px;">Feature Rich Angular 9 Admin Templates</h3>
+                                   <p style="opacity: 0.5" class="font-tofino-regular mb-4 pb-2">Checkout largest collection of  best Angular 9 admin and dashboard templates</p>
+                                   <a href="https://www.wrappixel.com/templates/category/angular-templates/" class="text-white d-block" title="Checkout now">
+                                        <i class="fas fa-arrow-right"></i>
+                                   </a>
+                                 </div>   
+                            </div> 
                         </div>
                     </div>
                 </div>
