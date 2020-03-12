@@ -316,7 +316,17 @@ $(document).ready(function ($) {
    $('.ctod').sociallocker({
     theme: 'flat',
     facebook:{
+       share:{
+          url: 'https://www.adminmart.com'
+       },
        appId: '2699156970182290'
+    },
+    twitter:{
+       tweet:{
+          url: 'https://adminmart.com',
+          text: 'I got my copy of AdminMart Bootstrap 4 Dashboard template for Free! You can also download it for free! Go and get it!, its a product of https://www.wrappixel.com , download this from here:',
+          via: '@wrappixel'
+       }
     },
     buttons:{
        order: ["facebook-share","twitter-tweet"],
