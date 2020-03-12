@@ -316,7 +316,7 @@ $(document).ready(function ($) {
    $('.ctod').sociallocker({
     theme: 'flat',
     facebook:{
-       appId: '127988287842860'
+       appId: '2699156970182290'
     },
     buttons:{
        order: ["facebook-share","twitter-tweet"],
@@ -324,8 +324,8 @@ $(document).ready(function ($) {
        lazy: true
     },
     text: {
-      header: "Like us To Unlock This Content",
-      message: "This content is locked. Like us on Twitter, Facebook or Google plus to unlock it."
+      header: "Sharing is Caring",
+      message: "To Download the Admin mart please share this on Facebook or Twitter!!!"
     },
    });
 });
