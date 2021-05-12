@@ -26,7 +26,7 @@
     },
     "dependencies": {
         "bootstrap": "^4.1.0",
-        "chart.js": "^2.7.2",
+        "chart.js": "^2.9.4",
         "chartist": "^0.11.0",
         "chartist-plugin-tooltips": "^0.0.17",
         "datatables.net-bs4": "^1.10.16",
