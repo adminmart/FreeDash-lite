@@ -32,7 +32,7 @@
         "datatables.net-bs4": "^1.10.16",
         "fullcalendar": "^3.10.0",
         "jquery": "^3.3.1",
-        "moment": "^2.22.1",
+        "moment": "^2.29.4",
         "morris.js": "^0.5.0",
         "perfect-scrollbar": "^0.7.1",
         "popper.js": "^1.14.3",
