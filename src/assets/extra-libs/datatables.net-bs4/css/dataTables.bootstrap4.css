@@ -129,7 +129,7 @@ div.dataTables_scrollHead table.dataTable {
 }
 
 div.dataTables_scrollBody table {
-  border-top: none;
+  /*border-top: none;*/
   margin-top: 0 !important;
   margin-bottom: 0 !important;
 }
@@ -151,7 +151,7 @@ div.dataTables_scrollFoot > .dataTables_scrollFootInner {
 }
 div.dataTables_scrollFoot > .dataTables_scrollFootInner > table {
   margin-top: 0 !important;
-  border-top: none;
+  /*border-top: none;*/
 }
 
 @media screen and (max-width: 767px) {

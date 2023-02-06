@@ -1,11 +1,9 @@
 //gulpfile.js
 const gulp = require('gulp'),
-    minifyCSS = require('gulp-minify-css'),
+    minifyCSS = require('gulp-clean-css'),
     uglify = require('gulp-uglify'),
     rename = require("gulp-rename"),
-    sass = require('gulp-sass'),
-    npmDist = require('gulp-npm-dist'),
-    browserSync = require('browser-sync').create();
+    sass = require('gulp-sass')(require('sass'));
 
 const sassFiles = 'scss/*.scss',
     cssDest = 'dist/css/';
@@ -21,8 +19,6 @@ function style() {
 
         //3.wher to save css
         .pipe(gulp.dest(cssDest))
-
-        .pipe(browserSync.stream());
 
 }
 //This is for the minify css
@@ -45,26 +41,9 @@ function minifyjs() {
         .pipe(gulp.dest('dist/js'))
 }
 
-// Copy dependencies to ./public/libs/
-function copy() {
-    gulp.src(npmDist(), {
-            base: './node_modules'
-        })
-        .pipe(gulp.dest('./assets/libs'));
-};
-
 function watch() {
-    browserSync.init({
-        server: {
-            baseDir: './',
-            index: "/html/index.html",
-            directory: true
-        },
-        startPath: '/html/index.html'
-    })
     gulp.watch(['scss/**/*.scss'], style);
     gulp.watch(['dist/css/style.css'], minifycss);
-    gulp.watch('html/*.html').on('change', browserSync.reload);
     gulp.watch(['dist/js/**/*.js', '!dist/js/**/*.min.js'], minifyjs);
 }
 
@@ -74,5 +53,4 @@ gulp.task('default', watch);
 exports.style = style;
 exports.minifycss = minifycss;
 exports.minifyjs = minifyjs;
-exports.copy = copy;
 exports.watch = watch;

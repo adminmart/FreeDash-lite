@@ -31,20 +31,6 @@ $green: #22ca80 !default;
 $teal: #20c997 !default;
 $cyan: #01caf1 !default;
 
-$colors: (blue: $blue,
-    indigo: $indigo,
-    purple: $purple,
-    pink: $pink,
-    red: $red,
-    orange: $orange,
-    yellow: $yellow,
-    green: $green,
-    teal: $teal,
-    cyan: $cyan,
-    white: $white,
-    gray: $gray-600,
-    gray-dark: $gray-800);
-
 $primary: $blue !default;
 $secondary: $gray-600 !default;
 $success: $green !default;
@@ -55,20 +41,22 @@ $light: $gray-100 !default;
 $dark: $gray-800 !default;
 $cyan: $cyan !default;
 $orange: $orange !default;
-$theme-colors: () !default;
+$theme-colors: (
+    ) !default;
 
 $theme-colors: map-merge(("primary": $primary,
-        "secondary": $secondary,
-        "success": $success,
-        "info": $info,
-        "warning": $warning,
-        "danger": $danger,
-        "light": $light,
-        "dark": $dark,
-        "cyan": $cyan,
-        "orange": $orange,
-        "purple": $purple),
-    $theme-colors);
+            "secondary": $secondary,
+            "success": $success,
+            "info": $info,
+            "warning": $warning,
+            "danger": $danger,
+            "light": $light,
+            "dark": $dark,
+            "cyan": $cyan,
+            "orange": $orange,
+            "purple": $purple),
+        $theme-colors
+);
 
 // -----------------------------------------------
 // Typography
@@ -76,7 +64,7 @@ $theme-colors: map-merge(("primary": $primary,
 
 $font-size-base: 1rem;
 $font-family-sans-serif: 'Rubik',
-sans-serif !default;
+    sans-serif !default;
 $font-weight-light: 300 !default;
 $font-weight-normal: 400 !default;
 $font-weight-bold: 600 !default;
@@ -92,8 +80,12 @@ $h6-font-size: 14px !default;
 // Typography Settings of Fonts
 // -----------------------------------
 
-$headings-margin-bottom: (1rem / 2) !default;
+$headings-margin-bottom: (
+    1rem / 2) !default;
 $headings-font-weight: 400 !default;
+
+// Common
+$min-contrast-ratio: 1.7 !default;
 
 
 // ------------------------------------------------------------------------
@@ -102,12 +94,13 @@ $headings-font-weight: 400 !default;
 
 $enable-caret: true !default;
 $enable-rounded: true !default;
-$enable-shadows: false !default;
+$enable-shadows: true !default;
 $enable-gradients: false !default;
 $enable-transitions: true !default;
 $enable-hover-media-query: false !default;
 $enable-grid-classes: true !default;
 $enable-print-styles: true !default;
+$enable-negative-margins: true !default;
 
 // --------------------------------
 // Body Color & bgColor Settings
@@ -121,16 +114,33 @@ $body-color: #7c8798 !default;
 // -------------------------------
 $grid-gutter-width: 30px !default;
 
-$sizes: () !default;
+$sizes: (
+    ) !default;
 $sizes: map-merge((25: 25%,
-        30: 30%,
-        35: 35%,
-        40: 40%,
-        50: 50%,
-        75: 75%,
-        100: 100%,
-        auto: auto),
-    $sizes);
+            30: 30%,
+            35: 35%,
+            40: 40%,
+            50: 50%,
+            75: 75%,
+            100: 100%,
+            auto: auto),
+        $sizes
+);
+
+
+// Spacer
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: 10px,
+  7: 20px,
+  8: 30px,
+) !default;
 
 
 // -------------------------------
@@ -158,13 +168,13 @@ $btn-secondary-border: $gray-300;
 // -------------------------------
 // Tables
 // -------------------------------
-$table-bg-accent: $gray-100;
+
 $table-bg-hover: $gray-100;
 $table-hover-bg: $gray-100 !default;
-$table-cell-padding: 1rem !default;
-$table-bg-level: -10 !default;
+$table-cell-padding-y: 16px !default;
+$table-cell-padding-x: 16px !default;
 $table-border-color: #e8eef3 !default;
-$table-accent-bg: #f4f8fb !default;
+
 // -----------------------------------
 // Components active Colors Settings
 // -----------------------------------
@@ -174,10 +184,15 @@ $component-active-bg: $blue !default;
 // -------------------------------
 // Forms
 // -------------------------------
-
+$input-padding-y: 6px;
+$input-padding-x: 12px;
+$input-color: $gray-700 !default;
+$input-bg: transparent !default;
 $input-group-addon-bg: $gray-100;
-$input-border-color: $gray-200;
-$input-group-addon-border-color: $gray-200;
+$input-border-color: $gray-200 !default;
+$form-check-label-color: #7c8798 !default;
+$form-select-box-shadow: unset !default;
+$input-group-addon-border-color: $gray-200 !default;
 $input-btn-focus-color: rgba(0, 0, 0, .25) !default;
 $input-focus-border-color: rgba(0, 0, 0, 0.25) !default;
 $custom-control-indicator-active-bg: rgba(0, 0, 0, 35%) !default;
@@ -186,6 +201,11 @@ $input-btn-focus-box-shadow: transparent !default;
 $custom-select-focus-box-shadow: transparent !default;
 $custom-select-indicator: str-replace(url(""), "%23") !default;
 $custom-select-color: $gray-500;
+
+
+// Input
+$form-label-color: $dark;
+$form-label-margin-bottom: .5rem;
 
 // -------------------------------
 // Border settings
@@ -223,8 +243,10 @@ $navbar-light-hover-color: rgba($dark, 1) !default;
 // Card Related Settings Here
 // -------------------------------
 
-$card-spacer-x: 25px; // Card Padding
+$card-spacer-y: 25px !default;
+$card-spacer-x: 25px !default;
 $card-border-width: 0 !default;
+$card-bg: $white !default;
 $card-border-radius: .25rem !default;
 $card-border-color: $gray-200 !default;
 $card-columns-margin: 20px !default;
@@ -237,6 +259,7 @@ $badge-font-weight: 400 !default;
 $badge-pill-padding-x: 0.5rem !default;
 $badge-padding-y: 4px;
 $badge-padding-x: 10px;
+$badge-color: $white;
 $link-hover-decoration: none !default;
 
 
@@ -245,4 +268,13 @@ $link-hover-decoration: none !default;
 $box-shadow-sm: 0px 2px 9px 0px rgba(169, 184, 200, 0.2) !default;
 
 $text-muted: #9eabc0 !default;
-$input-placeholder-color: $navbar-light-color;
+$input-placeholder-color: $navbar-light-color !default;
+
+// Shadow
+$list-group-item-padding-y: 12px !default;
+$list-group-item-padding-x: 20px !default;
+$list-group-bg: transparant !default;
+
+// Alert
+$alert-padding-y: 12px !default;
+$alert-padding-x: 20px !default;

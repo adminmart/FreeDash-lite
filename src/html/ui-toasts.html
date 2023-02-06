@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
-    <title>Adminmart Template - The Ultimate Multipurpose admin template</title>
+    <title>Freedash Template - The Ultimate Multipurpose admin template</title>
     <!-- Custom CSS -->
     <link href="../dist/css/style.min.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -20,6 +20,16 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 </head>
+<!-- <style>
+    .toast:not(.showing):not(.show) {
+        opacity: 1;
+    }
+
+    .toast:not(.showing):not(.show) {
+        opacity: 1;
+        display: block;
+    }
+</style> -->
 
 <body>
     <!-- ============================================================== -->
@@ -34,7 +44,8 @@
     <!-- ============================================================== -->
     <!-- Main wrapper - style you can find in pages.scss -->
     <!-- ============================================================== -->
-    <div id="main-wrapper" data-theme="light" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full" data-sidebar-position="fixed" data-header-position="fixed" data-boxed-layout="full">
+    <div id="main-wrapper" data-theme="light" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+        data-sidebar-position="fixed" data-header-position="fixed" data-boxed-layout="full">
         <!-- ============================================================== -->
         <!-- Topbar header - style you can find in pages.scss -->
         <!-- ============================================================== -->
@@ -73,7 +84,7 @@
                     <!-- Toggle which is visible on mobile only -->
                     <!-- ============================================================== -->
                     <a class="topbartoggler d-block d-md-none waves-effect waves-light" href="javascript:void(0)"
-                        data-toggle="collapse" data-target="#navbarSupportedContent"
+                        data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i
                             class="ti-more"></i></a>
                 </div>
@@ -84,14 +95,14 @@
                     <!-- ============================================================== -->
                     <!-- toggle and nav items -->
                     <!-- ============================================================== -->
-                    <ul class="navbar-nav float-left mr-auto ml-3 pl-1">
+                    <ul class="navbar-nav float-left me-auto ms-3 ps-1">
                         <!-- Notification -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle pl-md-3 position-relative" href="javascript:void(0)"
-                                id="bell" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                id="bell" role="button" data-bs-toggle="dropdown" aria-haspopup="true"
                                 aria-expanded="false">
                                 <span><i data-feather="bell" class="svg-icon"></i></span>
-                                <span class="badge badge-primary notify-no rounded-circle">5</span>
+                                <span class="badge text-bg-primary notify-no rounded-circle">5</span>
                             </a>
                             <div class="dropdown-menu dropdown-menu-left mailbox animated bounceInDown">
                                 <ul class="list-style-none">
@@ -102,7 +113,7 @@
                                                 class="message-item d-flex align-items-center border-bottom px-3 py-2">
                                                 <div class="btn btn-danger rounded-circle btn-circle"><i
                                                         data-feather="airplay" class="text-white"></i></div>
-                                                <div class="w-75 d-inline-block v-middle pl-2">
+                                                <div class="w-75 d-inline-block v-middle ps-2">
                                                     <h6 class="message-title mb-0 mt-1">Luanch Admin</h6>
                                                     <span class="font-12 text-nowrap d-block text-muted">Just see
                                                         the my new
@@ -115,7 +126,7 @@
                                                 class="message-item d-flex align-items-center border-bottom px-3 py-2">
                                                 <span class="btn btn-success text-white rounded-circle btn-circle"><i
                                                         data-feather="calendar" class="text-white"></i></span>
-                                                <div class="w-75 d-inline-block v-middle pl-2">
+                                                <div class="w-75 d-inline-block v-middle ps-2">
                                                     <h6 class="message-title mb-0 mt-1">Event today</h6>
                                                     <span
                                                         class="font-12 text-nowrap d-block text-muted text-truncate">Just
@@ -128,7 +139,7 @@
                                                 class="message-item d-flex align-items-center border-bottom px-3 py-2">
                                                 <span class="btn btn-info rounded-circle btn-circle"><i
                                                         data-feather="settings" class="text-white"></i></span>
-                                                <div class="w-75 d-inline-block v-middle pl-2">
+                                                <div class="w-75 d-inline-block v-middle ps-2">
                                                     <h6 class="message-title mb-0 mt-1">Settings</h6>
                                                     <span
                                                         class="font-12 text-nowrap d-block text-muted text-truncate">You
@@ -142,7 +153,7 @@
                                                 class="message-item d-flex align-items-center border-bottom px-3 py-2">
                                                 <span class="btn btn-primary rounded-circle btn-circle"><i
                                                         data-feather="box" class="text-white"></i></span>
-                                                <div class="w-75 d-inline-block v-middle pl-2">
+                                                <div class="w-75 d-inline-block v-middle ps-2">
                                                     <h6 class="message-title mb-0 mt-1">Pavan kumar</h6> <span
                                                         class="font-12 text-nowrap d-block text-muted">Just
                                                         see the my admin!</span>
@@ -166,7 +177,7 @@
                         <!-- ============================================================== -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i data-feather="settings" class="svg-icon"></i>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -193,7 +204,7 @@
                     <!-- ============================================================== -->
                     <!-- Right side toggle and nav items -->
                     <!-- ============================================================== -->
-                    <ul class="navbar-nav float-right">
+                    <ul class="navbar-nav float-end">
                         <!-- ============================================================== -->
                         <!-- Search -->
                         <!-- ============================================================== -->
@@ -212,31 +223,31 @@
                         <!-- User profile and search -->
                         <!-- ============================================================== -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown"
+                            <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-bs-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false">
                                 <img src="../assets/images/users/profile-pic.jpg" alt="user" class="rounded-circle"
                                     width="40">
-                                <span class="ml-2 d-none d-lg-inline-block"><span>Hello,</span> <span
+                                <span class="ms-2 d-none d-lg-inline-block"><span>Hello,</span> <span
                                         class="text-dark">Jason Doe</span> <i data-feather="chevron-down"
                                         class="svg-icon"></i></span>
                             </a>
-                            <div class="dropdown-menu dropdown-menu-right user-dd animated flipInY">
+                            <div class="dropdown-menu dropdown-menu-end dropdown-menu-right user-dd animated flipInY">
                                 <a class="dropdown-item" href="javascript:void(0)"><i data-feather="user"
-                                        class="svg-icon mr-2 ml-1"></i>
+                                        class="svg-icon me-2 ms-1"></i>
                                     My Profile</a>
                                 <a class="dropdown-item" href="javascript:void(0)"><i data-feather="credit-card"
-                                        class="svg-icon mr-2 ml-1"></i>
+                                        class="svg-icon me-2 ms-1"></i>
                                     My Balance</a>
                                 <a class="dropdown-item" href="javascript:void(0)"><i data-feather="mail"
-                                        class="svg-icon mr-2 ml-1"></i>
+                                        class="svg-icon me-2 ms-1"></i>
                                     Inbox</a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="javascript:void(0)"><i data-feather="settings"
-                                        class="svg-icon mr-2 ml-1"></i>
+                                        class="svg-icon me-2 ms-1"></i>
                                     Account Setting</a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="javascript:void(0)"><i data-feather="power"
-                                        class="svg-icon mr-2 ml-1"></i>
+                                        class="svg-icon me-2 ms-1"></i>
                                     Logout</a>
                                 <div class="dropdown-divider"></div>
                                 <div class="pl-4 p-3"><a href="javascript:void(0)" class="btn btn-sm btn-info">View
@@ -502,11 +513,12 @@
                         </div>
                     </div>
                     <div class="col-5 align-self-center">
-                        <div class="customize-input float-right">
-                            <select class="custom-select custom-select-set form-control bg-white border-0 custom-shadow custom-radius">
-                                <option selected>Aug 19</option>
-                                <option value="1">July 19</option>
-                                <option value="2">Jun 19</option>
+                        <div class="customize-input float-end">
+                            <select
+                                class="custom-select custom-select-set form-control bg-white border-0 custom-shadow custom-radius">
+                                <option selected>Aug 23</option>
+                                <option value="1">July 23</option>
+                                <option value="2">Jun 23</option>
                             </select>
                         </div>
                     </div>
@@ -528,25 +540,21 @@
                             <div class="card-body">
                                 <h4 class="card-title">Basic Toast</h4>
                                 <div class="bg-light p-3">
-                                    <div class="toast" role="alert" data-autohide="false" aria-live="assertive"
-                                        aria-atomic="true">
+                                    <div class="toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
                                         <div class="toast-header">
-                                            <svg class="bd-placeholder-img rounded mr-2" width="20" height="20"
-                                                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
-                                                focusable="false" role="img">
-                                                <rect fill="#007aff" width="100%" height="100%"></rect>
-                                            </svg>
-                                            <strong class="mr-auto">Bootstrap</strong>
-                                            <small>11 mins ago</small>
-                                            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast"
-                                                aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
+                                            <svg class="bd-placeholder-img rounded me-2" width="20" height="20"
+                                            xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
+                                            focusable="false" role="img">
+                                            <rect fill="#007aff" width="100%" height="100%"></rect>
+                                             </svg>
+                                          <strong class="me-auto">Bootstrap</strong>
+                                          <small>11 mins ago</small>
+                                          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
                                         </div>
                                         <div class="toast-body">
-                                            Hello, world! This is a toast message.
+                                          Hello, world! This is a toast message.
                                         </div>
-                                    </div>
+                                      </div>
                                 </div>
                             </div>
                         </div>
@@ -556,25 +564,21 @@
                             <div class="card-body">
                                 <h4 class="card-title">Translucent</h4>
                                 <div class="bg-light p-3">
-                                    <div class="toast" role="alert" data-autohide="false" aria-live="assertive"
-                                        aria-atomic="true">
+                                    <div class="toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
                                         <div class="toast-header">
-                                            <svg class="bd-placeholder-img rounded mr-2" width="20" height="20"
-                                                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
-                                                focusable="false" role="img">
-                                                <rect fill="#007aff" width="100%" height="100%"></rect>
-                                            </svg>
-                                            <strong class="mr-auto">Bootstrap</strong>
-                                            <small class="text-muted">11 mins ago</small>
-                                            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast"
-                                                aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
+                                            <svg class="bd-placeholder-img rounded me-2" width="20" height="20"
+                                            xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
+                                            focusable="false" role="img">
+                                            <rect fill="#007aff" width="100%" height="100%"></rect>
+                                             </svg>
+                                          <strong class="me-auto">Bootstrap</strong>
+                                          <small class="text-muted">11 mins ago</small>
+                                          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
                                         </div>
                                         <div class="toast-body">
-                                            Hello, world! This is a toast message.
+                                          Hello, world! This is a toast message.
                                         </div>
-                                    </div>
+                                      </div>
                                 </div>
                             </div>
                         </div>
@@ -584,45 +588,39 @@
                             <div class="card-body">
                                 <h4 class="card-title">Stacking</h4>
                                 <div class="bg-light p-3">
-                                    <div class="toast" role="alert" data-autohide="false" aria-live="assertive"
-                                        aria-atomic="true">
-                                        <div class="toast-header">
-                                            <svg class="bd-placeholder-img rounded mr-2" width="20" height="20"
-                                                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
-                                                focusable="false" role="img">
-                                                <rect fill="#007aff" width="100%" height="100%"></rect>
-                                            </svg>
-                                            <strong class="mr-auto">Bootstrap</strong>
+                                    <div class="toast-container position-static">
+                                        <div class="toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
+                                          <div class="toast-header">
+                                            <svg class="bd-placeholder-img rounded me-2" width="20" height="20"
+                                            xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
+                                            focusable="false" role="img">
+                                            <rect fill="#007aff" width="100%" height="100%"></rect>
+                                             </svg>
+                                            <strong class="me-auto">Bootstrap</strong>
                                             <small class="text-muted">just now</small>
-                                            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast"
-                                                aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <div class="toast-body">
+                                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                                          </div>
+                                          <div class="toast-body">
                                             See? Just like this.
+                                          </div>
                                         </div>
-                                    </div>
-
-                                    <div class="toast" role="alert" data-autohide="false" aria-live="assertive"
-                                        aria-atomic="true">
-                                        <div class="toast-header">
-                                            <svg class="bd-placeholder-img rounded mr-2" width="20" height="20"
-                                                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
-                                                focusable="false" role="img">
-                                                <rect fill="#007aff" width="100%" height="100%"></rect>
-                                            </svg>
-                                            <strong class="mr-auto">Bootstrap</strong>
+                                      
+                                        <div class="toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
+                                          <div class="toast-header">
+                                            <svg class="bd-placeholder-img rounded me-2" width="20" height="20"
+                                            xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
+                                            focusable="false" role="img">
+                                            <rect fill="#007aff" width="100%" height="100%"></rect>
+                                             </svg>
+                                            <strong class="me-auto">Bootstrap</strong>
                                             <small class="text-muted">2 seconds ago</small>
-                                            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast"
-                                                aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <div class="toast-body">
+                                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                                          </div>
+                                          <div class="toast-body">
                                             Heads up, toasts will stack automatically
+                                          </div>
                                         </div>
-                                    </div>
+                                      </div>
                                 </div>
                             </div>
                         </div>
@@ -632,28 +630,24 @@
                             <div class="card-body">
                                 <h4 class="card-title">Placement</h4>
                                 <div class="bg-light p-2">
-                                    <div aria-live="polite" aria-atomic="true"
-                                        style="position: relative; min-height: 200px;">
-                                        <div class="toast" data-autohide="false"
-                                            style="position: absolute; top: 0; right: 0;">
+                                    <div aria-live="polite" aria-atomic="true" class="bg-body-secondary position-relative bd-example-toasts rounded-3">
+                                        <div class="toast-container position-relative p-3" id="toastPlacement">
+                                          <div class="toast fade show">
                                             <div class="toast-header">
-                                                <svg class="bd-placeholder-img rounded mr-2" width="20" height="20"
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
-                                                    <rect fill="#007aff" width="100%" height="100%"></rect>
-                                                </svg>
-                                                <strong class="mr-auto">Bootstrap</strong>
-                                                <small>11 mins ago</small>
-                                                <button type="button" class="ml-2 mb-1 close" data-dismiss="toast"
-                                                    aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                </button>
+                                                <svg class="bd-placeholder-img rounded me-2" width="20" height="20"
+                                                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
+                                                focusable="false" role="img">
+                                                <rect fill="#007aff" width="100%" height="100%"></rect>
+                                                 </svg>
+                                              <strong class="me-auto">Bootstrap</strong>
+                                              <small>11 mins ago</small>
                                             </div>
                                             <div class="toast-body">
-                                                Hello, world! This is a toast message.
+                                              Hello, world! This is a toast message.
                                             </div>
+                                          </div>
                                         </div>
-                                    </div>
+                                      </div>
                                 </div>
                             </div>
                         </div>
@@ -669,47 +663,28 @@
                                         <div style="position: absolute; top: 0; right: 0;">
 
                                             <!-- Then put toasts within -->
-                                            <div class="toast" role="alert" data-autohide="false" aria-live="assertive"
-                                                aria-atomic="true">
+                                            <div class="toast fade show mb-3" role="alert" aria-live="assertive" aria-atomic="true">
                                                 <div class="toast-header">
-                                                    <svg class="bd-placeholder-img rounded mr-2" width="20" height="20"
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        preserveAspectRatio="xMidYMid slice" focusable="false"
-                                                        role="img">
-                                                        <rect fill="#007aff" width="100%" height="100%"></rect>
-                                                    </svg>
-                                                    <strong class="mr-auto">Bootstrap</strong>
-                                                    <small class="text-muted">just now</small>
-                                                    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast"
-                                                        aria-label="Close">
-                                                        <span aria-hidden="true">&times;</span>
-                                                    </button>
+                                                  <svg class="bd-placeholder-img rounded me-2" width="20" height="20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#007aff"></rect></svg>
+                                                  <strong class="me-auto">Bootstrap</strong>
+                                                  <small class="text-muted">just now</small>
+                                                  <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close" fdprocessedid="mlog2p"></button>
                                                 </div>
                                                 <div class="toast-body">
-                                                    See? Just like this.
+                                                  See? Just like this.
                                                 </div>
-                                            </div>
-
-                                            <div class="toast" role="alert" data-autohide="false" aria-live="assertive"
-                                                aria-atomic="true">
+                                              </div>
+                                              <div class="toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
                                                 <div class="toast-header">
-                                                    <svg class="bd-placeholder-img rounded mr-2" width="20" height="20"
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        preserveAspectRatio="xMidYMid slice" focusable="false"
-                                                        role="img">
-                                                        <rect fill="#007aff" width="100%" height="100%"></rect>
-                                                    </svg>
-                                                    <strong class="mr-auto">Bootstrap</strong>
-                                                    <small class="text-muted">2 seconds ago</small>
-                                                    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast"
-                                                        aria-label="Close">
-                                                        <span aria-hidden="true">&times;</span>
-                                                    </button>
+                                                  <svg class="bd-placeholder-img rounded me-2" width="20" height="20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#007aff"></rect></svg>
+                                                  <strong class="me-auto">Bootstrap</strong>
+                                                  <small class="text-muted">2 seconds ago</small>
+                                                  <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close" fdprocessedid="mkuq0x"></button>
                                                 </div>
                                                 <div class="toast-body">
-                                                    Heads up, toasts will stack automatically
+                                                  Heads up, toasts will stack automatically
                                                 </div>
-                                            </div>
+                                              </div>
                                         </div>
                                     </div>
                                 </div>
@@ -727,25 +702,17 @@
                                         style="min-height: 200px;">
 
                                         <!-- Then put toasts within -->
-                                        <div class="toast" role="alert" data-autohide="false" aria-live="assertive"
-                                            aria-atomic="true">
+                                        <div class="toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
                                             <div class="toast-header">
-                                                <svg class="bd-placeholder-img rounded mr-2" width="20" height="20"
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
-                                                    <rect fill="#007aff" width="100%" height="100%"></rect>
-                                                </svg>
-                                                <strong class="mr-auto">Bootstrap</strong>
-                                                <small>11 mins ago</small>
-                                                <button type="button" class="ml-2 mb-1 close" data-dismiss="toast"
-                                                    aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                </button>
+                                              <svg class="bd-placeholder-img rounded me-2" width="20" height="20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#007aff"></rect></svg>
+                                              <strong class="me-auto">Bootstrap</strong>
+                                              <small>11 mins ago</small>
+                                              <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close" fdprocessedid="7b8gmw"></button>
                                             </div>
                                             <div class="toast-body">
-                                                Hello, world! This is a toast message.
+                                              Hello, world! This is a toast message.
                                             </div>
-                                        </div>
+                                          </div>
                                     </div>
                                 </div>
                             </div>
@@ -770,7 +737,7 @@
             <!-- footer -->
             <!-- ============================================================== -->
             <footer class="footer text-center text-muted">
-                All Rights Reserved by Adminmart. Designed and Developed by <a
+                All Rights Reserved by Freedash. Designed and Developed by <a
                     href="https://wrappixel.com">WrapPixel</a>.
             </footer>
             <!-- ============================================================== -->
@@ -791,7 +758,7 @@
     <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap tether Core JavaScript -->
     <script src="../assets/libs/popper.js/dist/umd/popper.min.js"></script>
-    <script src="../assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <!-- apps -->
     <!-- apps -->
     <script src="../dist/js/app-style-switcher.js"></script>
@@ -805,9 +772,6 @@
     <script src="../dist/js/sidebarmenu.js"></script>
     <!--Custom JavaScript -->
     <script src="../dist/js/custom.min.js"></script>
-    <script type="text/javascript">
-        $('.toast').toast('show');
-    </script>
 </body>
 
 </html>

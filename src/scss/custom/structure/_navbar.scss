@@ -159,12 +159,12 @@ Designed dropdown
 Topbar Responsive
 ******************/
 
-@include media-breakpoint-down(sm) {
+@include media-breakpoint-down(md) {
     .topbar .top-navbar {
 
         .navbar-collapse.show,
         .navbar-collapse.collapsing {
-            display: block;
+            display: flex;
             width: 100%;
             border-top: 1px solid $border;
         }

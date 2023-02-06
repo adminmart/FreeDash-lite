@@ -285,7 +285,7 @@
     }
 }
 
-@include media-breakpoint-down(sm) {
+@include media-breakpoint-down(md) {
     #main-wrapper {
         &[data-sidebartype="mini-sidebar"] {
             .left-sidebar {

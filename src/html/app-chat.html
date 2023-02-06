@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
-    <title>Adminmart Template - The Ultimate Multipurpose admin template</title>
+    <title>Freedash Template - The Ultimate Multipurpose admin template</title>
     <!-- This page css -->
     <!-- Custom CSS -->
     <link href="../dist/css/style.min.css" rel="stylesheet">
@@ -74,7 +74,7 @@
                     <!-- Toggle which is visible on mobile only -->
                     <!-- ============================================================== -->
                     <a class="topbartoggler d-block d-md-none waves-effect waves-light" href="javascript:void(0)"
-                        data-toggle="collapse" data-target="#navbarSupportedContent"
+                        data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i
                             class="ti-more"></i></a>
                 </div>
@@ -85,14 +85,14 @@
                     <!-- ============================================================== -->
                     <!-- toggle and nav items -->
                     <!-- ============================================================== -->
-                    <ul class="navbar-nav float-left mr-auto ml-3 pl-1">
+                    <ul class="navbar-nav float-left me-auto ms-3 ps-1">
                         <!-- Notification -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle pl-md-3 position-relative" href="javascript:void(0)"
-                                id="bell" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                id="bell" role="button" data-bs-toggle="dropdown" aria-haspopup="true"
                                 aria-expanded="false">
                                 <span><i data-feather="bell" class="svg-icon"></i></span>
-                                <span class="badge badge-primary notify-no rounded-circle">5</span>
+                                <span class="badge text-bg-primary notify-no rounded-circle">5</span>
                             </a>
                             <div class="dropdown-menu dropdown-menu-left mailbox animated bounceInDown">
                                 <ul class="list-style-none">
@@ -103,7 +103,7 @@
                                                 class="message-item d-flex align-items-center border-bottom px-3 py-2">
                                                 <div class="btn btn-danger rounded-circle btn-circle"><i
                                                         data-feather="airplay" class="text-white"></i></div>
-                                                <div class="w-75 d-inline-block v-middle pl-2">
+                                                <div class="w-75 d-inline-block v-middle ps-2">
                                                     <h6 class="message-title mb-0 mt-1">Luanch Admin</h6>
                                                     <span class="font-12 text-nowrap d-block text-muted">Just see
                                                         the my new
@@ -116,7 +116,7 @@
                                                 class="message-item d-flex align-items-center border-bottom px-3 py-2">
                                                 <span class="btn btn-success text-white rounded-circle btn-circle"><i
                                                         data-feather="calendar" class="text-white"></i></span>
-                                                <div class="w-75 d-inline-block v-middle pl-2">
+                                                <div class="w-75 d-inline-block v-middle ps-2">
                                                     <h6 class="message-title mb-0 mt-1">Event today</h6>
                                                     <span
                                                         class="font-12 text-nowrap d-block text-muted text-truncate">Just
@@ -129,7 +129,7 @@
                                                 class="message-item d-flex align-items-center border-bottom px-3 py-2">
                                                 <span class="btn btn-info rounded-circle btn-circle"><i
                                                         data-feather="settings" class="text-white"></i></span>
-                                                <div class="w-75 d-inline-block v-middle pl-2">
+                                                <div class="w-75 d-inline-block v-middle ps-2">
                                                     <h6 class="message-title mb-0 mt-1">Settings</h6>
                                                     <span
                                                         class="font-12 text-nowrap d-block text-muted text-truncate">You
@@ -143,7 +143,7 @@
                                                 class="message-item d-flex align-items-center border-bottom px-3 py-2">
                                                 <span class="btn btn-primary rounded-circle btn-circle"><i
                                                         data-feather="box" class="text-white"></i></span>
-                                                <div class="w-75 d-inline-block v-middle pl-2">
+                                                <div class="w-75 d-inline-block v-middle ps-2">
                                                     <h6 class="message-title mb-0 mt-1">Pavan kumar</h6> <span
                                                         class="font-12 text-nowrap d-block text-muted">Just
                                                         see the my admin!</span>
@@ -167,7 +167,7 @@
                         <!-- ============================================================== -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i data-feather="settings" class="svg-icon"></i>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -194,7 +194,7 @@
                     <!-- ============================================================== -->
                     <!-- Right side toggle and nav items -->
                     <!-- ============================================================== -->
-                    <ul class="navbar-nav float-right">
+                    <ul class="navbar-nav float-end">
                         <!-- ============================================================== -->
                         <!-- Search -->
                         <!-- ============================================================== -->
@@ -213,31 +213,31 @@
                         <!-- User profile and search -->
                         <!-- ============================================================== -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown"
+                            <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-bs-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false">
                                 <img src="../assets/images/users/profile-pic.jpg" alt="user" class="rounded-circle"
                                     width="40">
-                                <span class="ml-2 d-none d-lg-inline-block"><span>Hello,</span> <span
+                                <span class="ms-2 d-none d-lg-inline-block"><span>Hello,</span> <span
                                         class="text-dark">Jason Doe</span> <i data-feather="chevron-down"
                                         class="svg-icon"></i></span>
                             </a>
-                            <div class="dropdown-menu dropdown-menu-right user-dd animated flipInY">
+                            <div class="dropdown-menu dropdown-menu-end dropdown-menu-right user-dd animated flipInY">
                                 <a class="dropdown-item" href="javascript:void(0)"><i data-feather="user"
-                                        class="svg-icon mr-2 ml-1"></i>
+                                        class="svg-icon me-2 ms-1"></i>
                                     My Profile</a>
                                 <a class="dropdown-item" href="javascript:void(0)"><i data-feather="credit-card"
-                                        class="svg-icon mr-2 ml-1"></i>
+                                        class="svg-icon me-2 ms-1"></i>
                                     My Balance</a>
                                 <a class="dropdown-item" href="javascript:void(0)"><i data-feather="mail"
-                                        class="svg-icon mr-2 ml-1"></i>
+                                        class="svg-icon me-2 ms-1"></i>
                                     Inbox</a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="javascript:void(0)"><i data-feather="settings"
-                                        class="svg-icon mr-2 ml-1"></i>
+                                        class="svg-icon me-2 ms-1"></i>
                                     Account Setting</a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="javascript:void(0)"><i data-feather="power"
-                                        class="svg-icon mr-2 ml-1"></i>
+                                        class="svg-icon me-2 ms-1"></i>
                                     Logout</a>
                                 <div class="dropdown-divider"></div>
                                 <div class="pl-4 p-3"><a href="javascript:void(0)" class="btn btn-sm btn-info">View
@@ -503,11 +503,11 @@
                         </div>
                     </div>
                     <div class="col-5 align-self-center">
-                        <div class="customize-input float-right">
+                        <div class="customize-input float-end">
                             <select class="custom-select custom-select-set form-control bg-white border-0 custom-shadow custom-radius">
-                                <option selected>Aug 19</option>
-                                <option value="1">July 19</option>
-                                <option value="2">Jun 19</option>
+                                <option selected>Aug 23</option>
+                                <option value="1">July 23</option>
+                                <option value="2">Jun 23</option>
                             </select>
                         </div>
                     </div>
@@ -523,8 +523,8 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="card">
-                            <div class="row no-gutters">
-                                <div class="col-lg-3 col-xl-2 border-right">
+                            <div class="row g-0">
+                                <div class="col-lg-3 col-xl-2 border-end">
                                     <div class="card-body border-bottom">
                                         <form>
                                             <input class="form-control" type="text" placeholder="Search Contact">
@@ -540,9 +540,9 @@
                                                         <div class="user-img"><img src="../assets/images/users/1.jpg"
                                                                 alt="user" class="img-fluid rounded-circle"
                                                                 width="40px"> <span
-                                                                class="profile-status online float-right"></span>
+                                                                class="profile-status online float-end"></span>
                                                         </div>
-                                                        <div class="w-75 d-inline-block v-middle pl-2">
+                                                        <div class="w-75 d-inline-block v-middle ps-2">
                                                             <h6 class="message-title mb-0 mt-1">Pavan kumar</h6>
                                                             <span
                                                                 class="font-12 text-nowrap d-block text-muted text-truncate">Just
@@ -559,9 +559,9 @@
                                                         <div class="user-img"><img src="../assets/images/users/2.jpg"
                                                                 alt="user" class="img-fluid rounded-circle"
                                                                 width="40px"> <span
-                                                                class="profile-status busy float-right"></span>
+                                                                class="profile-status busy float-end"></span>
                                                         </div>
-                                                        <div class="w-75 d-inline-block v-middle pl-2">
+                                                        <div class="w-75 d-inline-block v-middle ps-2">
                                                             <h6 class="message-title mb-0 mt-1">Sonu Nigam</h6>
                                                             <span
                                                                 class="font-12 text-nowrap d-block text-muted text-truncate">I've
@@ -577,9 +577,9 @@
                                                         <div class="user-img"> <img src="../assets/images/users/3.jpg"
                                                                 alt="user" class="img-fluid rounded-circle"
                                                                 width="40px"> <span
-                                                                class="profile-status away float-right"></span>
+                                                                class="profile-status away float-end"></span>
                                                         </div>
-                                                        <div class="w-75 d-inline-block v-middle pl-2">
+                                                        <div class="w-75 d-inline-block v-middle ps-2">
                                                             <h6 class="message-title mb-0 mt-1">Arijit Sinh</h6>
                                                             <span
                                                                 class="font-12 text-nowrap d-block text-muted text-truncate">I
@@ -595,9 +595,9 @@
                                                         <div class="user-img"><img src="../assets/images/users/4.jpg"
                                                                 alt="user" class="img-fluid rounded-circle"
                                                                 width="40px"> <span
-                                                                class="profile-status offline float-right"></span>
+                                                                class="profile-status offline float-end"></span>
                                                         </div>
-                                                        <div class="w-75 d-inline-block v-middle pl-2">
+                                                        <div class="w-75 d-inline-block v-middle ps-2">
                                                             <h6 class="message-title mb-0 mt-1">Nirav Joshi</h6>
                                                             <span
                                                                 class="font-12 text-nowrap d-block text-muted text-truncate">Just
@@ -612,9 +612,9 @@
                                                         <div class="user-img"><img src="../assets/images/users/5.jpg"
                                                                 alt="user" class="img-fluid rounded-circle"
                                                                 width="40px"> <span
-                                                                class="profile-status offline float-right"></span></span>
+                                                                class="profile-status offline float-end"></span></span>
                                                         </div>
-                                                        <div class="w-75 d-inline-block v-middle pl-2">
+                                                        <div class="w-75 d-inline-block v-middle ps-2">
                                                             <h6 class="message-title mb-0 mt-1">Sunil Joshi</h6>
                                                             <span
                                                                 class="font-12 text-nowrap d-block text-muted text-truncate">Just
@@ -629,9 +629,9 @@
                                                         <div class="user-img"><img src="../assets/images/users/6.jpg"
                                                                 alt="user" class="img-fluid rounded-circle"
                                                                 width="40px"> <span
-                                                                class="profile-status offline float-right"></span>
+                                                                class="profile-status offline float-end"></span>
                                                         </div>
-                                                        <div class="w-75 d-inline-block v-middle pl-2">
+                                                        <div class="w-75 d-inline-block v-middle ps-2">
                                                             <h6 class="message-title mb-0 mt-1">Akshay Kumar</h6>
                                                             <span
                                                                 class="font-12 text-nowrap d-block text-muted text-truncate">Just
@@ -646,9 +646,9 @@
                                                         <div class="user-img"><img src="../assets/images/users/7.jpg"
                                                                 alt="user" class="img-fluid rounded-circle"
                                                                 width="40px"> <span
-                                                                class="profile-status offline float-right"></span>
+                                                                class="profile-status offline float-end"></span>
                                                         </div>
-                                                        <div class="w-75 d-inline-block v-middle pl-2">
+                                                        <div class="w-75 d-inline-block v-middle ps-2">
                                                             <h6 class="message-title mb-0 mt-1">Pavan kumar</h6>
                                                             <span
                                                                 class="font-12 text-nowrap d-block text-muted text-truncate">Just
@@ -663,9 +663,9 @@
                                                         <div class="user-img"><img src="../assets/images/users/8.jpg"
                                                                 alt="user" class="img-fluid rounded-circle"
                                                                 width="40px"> <span
-                                                                class="profile-status offline float-right"></span>
+                                                                class="profile-status offline float-end"></span>
                                                         </div>
-                                                        <div class="w-75 d-inline-block v-middle pl-2">
+                                                        <div class="w-75 d-inline-block v-middle ps-2">
                                                             <h6 class="message-title mb-0 mt-1">Varun Dhavan</h6>
                                                             <span
                                                                 class="font-12 text-nowrap d-block text-muted text-truncate">Just
@@ -690,7 +690,7 @@
                                                         src="../assets/images/users/1.jpg" alt="user"
                                                         class="rounded-circle" width="45">
                                                 </div>
-                                                <div class="chat-content d-inline-block pl-3">
+                                                <div class="chat-content d-inline-block ps-3">
                                                     <h6 class="font-weight-medium">James Anderson</h6>
                                                     <div class="msg p-2 d-inline-block mb-1">Lorem
                                                         Ipsum is simply
@@ -706,7 +706,7 @@
                                                         src="../assets/images/users/2.jpg" alt="user"
                                                         class="rounded-circle" width="45">
                                                 </div>
-                                                <div class="chat-content d-inline-block pl-3">
+                                                <div class="chat-content d-inline-block ps-3">
                                                     <h6 class="font-weight-medium">Bianca Doe</h6>
                                                     <div class="msg p-2 d-inline-block mb-1">It’s
                                                         Great opportunity to
@@ -717,7 +717,7 @@
                                             </li>
                                             <!--chat Row -->
                                             <li class="chat-item odd list-style-none mt-3">
-                                                <div class="chat-content text-right d-inline-block pl-3">
+                                                <div class="chat-content text-end d-inline-block ps-3">
                                                     <div class="box msg p-2 d-inline-block mb-1">I
                                                         would love to
                                                         join the team.</div>
@@ -726,13 +726,13 @@
                                             </li>
                                             <!--chat Row -->
                                             <li class="chat-item odd list-style-none mt-3">
-                                                <div class="chat-content text-right d-inline-block pl-3">
+                                                <div class="chat-content text-end d-inline-block ps-3">
                                                     <div class="box msg p-2 d-inline-block mb-1 box">
                                                         Whats budget
                                                         of the new project.</div>
                                                     <br>
                                                 </div>
-                                                <div class="chat-time text-right d-block font-10 mt-1 mr-0 mb-3">
+                                                <div class="chat-time text-end d-block font-10 mt-1 mr-0 mb-3">
                                                     10:59 am</div>
                                             </li>
                                             <!--chat Row -->
@@ -741,7 +741,7 @@
                                                         src="../assets/images/users/3.jpg" alt="user"
                                                         class="rounded-circle" width="45">
                                                 </div>
-                                                <div class="chat-content d-inline-block pl-3">
+                                                <div class="chat-content d-inline-block ps-3">
                                                     <h6 class="font-weight-medium">Angelina Rhodes</h6>
                                                     <div class="msg p-2 d-inline-block mb-1">Well we
                                                         have good budget
@@ -753,7 +753,7 @@
                                             </li>
                                             <!--chat Row -->
                                             <li class="chat-item odd list-style-none mt-3">
-                                                <div class="chat-content text-right d-inline-block pl-3">
+                                                <div class="chat-content text-end d-inline-block ps-3">
                                                     <div class="box msg p-2 d-inline-block mb-1">I
                                                         would love to
                                                         join the team.</div>
@@ -762,13 +762,13 @@
                                             </li>
                                             <!--chat Row -->
                                             <li class="chat-item odd list-style-none mt-3">
-                                                <div class="chat-content text-right d-inline-block pl-3">
+                                                <div class="chat-content text-end d-inline-block ps-3">
                                                     <div class="box msg p-2 d-inline-block mb-1 box">
                                                         Whats budget
                                                         of the new project.</div>
                                                     <br>
                                                 </div>
-                                                <div class="chat-time text-right d-block font-10 mt-1 mr-0 mb-3">
+                                                <div class="chat-time text-end d-block font-10 mt-1 mr-0 mb-3">
                                                     10:59 am</div>
                                             </li>
                                         </ul>
@@ -782,7 +782,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-3">
-                                                <a class="btn-circle btn-lg btn-cyan float-right text-white"
+                                                <a class="btn-circle bg-cyan float-end text-white d-flex align-items-center justify-content-center"
                                                     href="javascript:void(0)"><i class="fas fa-paper-plane"></i></a>
                                             </div>
                                         </div>
@@ -800,7 +800,7 @@
             <!-- footer -->
             <!-- ============================================================== -->
             <footer class="footer text-center">
-                All Rights Reserved by Adminmart. Designed and Developed by <a
+                All Rights Reserved by Freedash. Designed and Developed by <a
                     href="https://wrappixel.com">WrapPixel</a>.
             </footer>
             <!-- ============================================================== -->
@@ -820,7 +820,7 @@
     <!-- ============================================================== -->
     <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
     <script src="../assets/libs/popper.js/dist/umd/popper.min.js"></script>
-    <script src="../assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <!-- apps -->
     <!-- apps -->
     <script src="../dist/js/app-style-switcher.js"></script>

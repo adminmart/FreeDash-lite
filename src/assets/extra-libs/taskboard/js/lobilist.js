@@ -538,7 +538,7 @@ $(function() {
             }).append(
                 $('<button>', {
                     'type': 'button',
-                    'data-toggle': 'dropdown',
+                    'data-bs-toggle': 'dropdown',
                     'class': 'btn btn-xs',
                     'html': '<i class="ti-view-grid"></i>'
                 })

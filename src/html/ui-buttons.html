@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
-    <title>Adminmart Template - The Ultimate Multipurpose admin template</title>
+    <title>Freedash Template - The Ultimate Multipurpose admin template</title>
     <!-- Custom CSS -->
     <link href="../dist/css/style.min.css" rel="stylesheet">
     <!-- This Page CSS -->
@@ -75,7 +75,7 @@
                     <!-- Toggle which is visible on mobile only -->
                     <!-- ============================================================== -->
                     <a class="topbartoggler d-block d-md-none waves-effect waves-light" href="javascript:void(0)"
-                        data-toggle="collapse" data-target="#navbarSupportedContent"
+                        data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i
                             class="ti-more"></i></a>
                 </div>
@@ -86,14 +86,14 @@
                     <!-- ============================================================== -->
                     <!-- toggle and nav items -->
                     <!-- ============================================================== -->
-                    <ul class="navbar-nav float-left mr-auto ml-3 pl-1">
+                    <ul class="navbar-nav float-left me-auto ms-3 ps-1">
                         <!-- Notification -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle pl-md-3 position-relative" href="javascript:void(0)"
-                                id="bell" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                id="bell" role="button" data-bs-toggle="dropdown" aria-haspopup="true"
                                 aria-expanded="false">
                                 <span><i data-feather="bell" class="svg-icon"></i></span>
-                                <span class="badge badge-primary notify-no rounded-circle">5</span>
+                                <span class="badge text-bg-primary notify-no rounded-circle">5</span>
                             </a>
                             <div class="dropdown-menu dropdown-menu-left mailbox animated bounceInDown">
                                 <ul class="list-style-none">
@@ -104,7 +104,7 @@
                                                 class="message-item d-flex align-items-center border-bottom px-3 py-2">
                                                 <div class="btn btn-danger rounded-circle btn-circle"><i
                                                         data-feather="airplay" class="text-white"></i></div>
-                                                <div class="w-75 d-inline-block v-middle pl-2">
+                                                <div class="w-75 d-inline-block v-middle ps-2">
                                                     <h6 class="message-title mb-0 mt-1">Luanch Admin</h6>
                                                     <span class="font-12 text-nowrap d-block text-muted">Just see
                                                         the my new
@@ -117,7 +117,7 @@
                                                 class="message-item d-flex align-items-center border-bottom px-3 py-2">
                                                 <span class="btn btn-success text-white rounded-circle btn-circle"><i
                                                         data-feather="calendar" class="text-white"></i></span>
-                                                <div class="w-75 d-inline-block v-middle pl-2">
+                                                <div class="w-75 d-inline-block v-middle ps-2">
                                                     <h6 class="message-title mb-0 mt-1">Event today</h6>
                                                     <span
                                                         class="font-12 text-nowrap d-block text-muted text-truncate">Just
@@ -130,7 +130,7 @@
                                                 class="message-item d-flex align-items-center border-bottom px-3 py-2">
                                                 <span class="btn btn-info rounded-circle btn-circle"><i
                                                         data-feather="settings" class="text-white"></i></span>
-                                                <div class="w-75 d-inline-block v-middle pl-2">
+                                                <div class="w-75 d-inline-block v-middle ps-2">
                                                     <h6 class="message-title mb-0 mt-1">Settings</h6>
                                                     <span
                                                         class="font-12 text-nowrap d-block text-muted text-truncate">You
@@ -144,7 +144,7 @@
                                                 class="message-item d-flex align-items-center border-bottom px-3 py-2">
                                                 <span class="btn btn-primary rounded-circle btn-circle"><i
                                                         data-feather="box" class="text-white"></i></span>
-                                                <div class="w-75 d-inline-block v-middle pl-2">
+                                                <div class="w-75 d-inline-block v-middle ps-2">
                                                     <h6 class="message-title mb-0 mt-1">Pavan kumar</h6> <span
                                                         class="font-12 text-nowrap d-block text-muted">Just
                                                         see the my admin!</span>
@@ -168,7 +168,7 @@
                         <!-- ============================================================== -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i data-feather="settings" class="svg-icon"></i>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -195,7 +195,7 @@
                     <!-- ============================================================== -->
                     <!-- Right side toggle and nav items -->
                     <!-- ============================================================== -->
-                    <ul class="navbar-nav float-right">
+                    <ul class="navbar-nav float-end">
                         <!-- ============================================================== -->
                         <!-- Search -->
                         <!-- ============================================================== -->
@@ -214,31 +214,31 @@
                         <!-- User profile and search -->
                         <!-- ============================================================== -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown"
+                            <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-bs-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false">
                                 <img src="../assets/images/users/profile-pic.jpg" alt="user" class="rounded-circle"
                                     width="40">
-                                <span class="ml-2 d-none d-lg-inline-block"><span>Hello,</span> <span
+                                <span class="ms-2 d-none d-lg-inline-block"><span>Hello,</span> <span
                                         class="text-dark">Jason Doe</span> <i data-feather="chevron-down"
                                         class="svg-icon"></i></span>
                             </a>
-                            <div class="dropdown-menu dropdown-menu-right user-dd animated flipInY">
+                            <div class="dropdown-menu dropdown-menu-end dropdown-menu-right user-dd animated flipInY">
                                 <a class="dropdown-item" href="javascript:void(0)"><i data-feather="user"
-                                        class="svg-icon mr-2 ml-1"></i>
+                                        class="svg-icon me-2 ms-1"></i>
                                     My Profile</a>
                                 <a class="dropdown-item" href="javascript:void(0)"><i data-feather="credit-card"
-                                        class="svg-icon mr-2 ml-1"></i>
+                                        class="svg-icon me-2 ms-1"></i>
                                     My Balance</a>
                                 <a class="dropdown-item" href="javascript:void(0)"><i data-feather="mail"
-                                        class="svg-icon mr-2 ml-1"></i>
+                                        class="svg-icon me-2 ms-1"></i>
                                     Inbox</a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="javascript:void(0)"><i data-feather="settings"
-                                        class="svg-icon mr-2 ml-1"></i>
+                                        class="svg-icon me-2 ms-1"></i>
                                     Account Setting</a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="javascript:void(0)"><i data-feather="power"
-                                        class="svg-icon mr-2 ml-1"></i>
+                                        class="svg-icon me-2 ms-1"></i>
                                     Logout</a>
                                 <div class="dropdown-divider"></div>
                                 <div class="pl-4 p-3"><a href="javascript:void(0)" class="btn btn-sm btn-info">View
@@ -504,11 +504,11 @@
                         </div>
                     </div>
                     <div class="col-5 align-self-center">
-                        <div class="customize-input float-right">
+                        <div class="customize-input float-end">
                             <select class="custom-select custom-select-set form-control bg-white border-0 custom-shadow custom-radius">
-                                <option selected>Aug 19</option>
-                                <option value="1">July 19</option>
-                                <option value="2">Jun 19</option>
+                                <option selected>Aug 23</option>
+                                <option value="1">July 23</option>
+                                <option value="2">Jun 23</option>
                             </select>
                         </div>
                     </div>
@@ -692,9 +692,9 @@
                                 <h4 class="card-title">Block buttons</h4>
                                 <h6 class="card-subtitle">Use a classes <code>btn btn-block btn-success</code> to
                                     quickly create a General btn.</h6>
-                                <button type="button" class="btn btn-block btn-primary">Block Button</button>
-                                <button type="button" class="btn btn-block btn-sm btn-info">Block Button</button>
-                                <button type="button" class="btn btn-block btn-xs btn-success">Block Button</button>
+                                <button type="button" class="btn d-block w-100 mb-2 btn-primary">Block Button</button>
+                                <button type="button" class="btn d-block w-100 mb-2 btn-sm btn-info">Block Button</button>
+                                <button type="button" class="btn d-block w-100 btn-xs btn-success">Block Button</button>
                             </div>
                         </div>
                     </div>
@@ -851,7 +851,7 @@
                                         <div class="btn-list">
                                             <div class="btn-group">
                                                 <button type="button" class="btn btn-danger dropdown-toggle"
-                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                     Action
                                                 </button>
                                                 <div class="dropdown-menu">
@@ -867,7 +867,7 @@
                                             </div>
                                             <div class="btn-group">
                                                 <button type="button" class="btn btn-info dropdown-toggle"
-                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                     Action
                                                 </button>
                                                 <div class="dropdown-menu">
@@ -883,7 +883,7 @@
                                             </div>
                                             <div class="btn-group">
                                                 <button type="button" class="btn btn-primary dropdown-toggle"
-                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                     Action
                                                 </button>
                                                 <div class="dropdown-menu">
@@ -899,7 +899,7 @@
                                             </div>
                                             <div class="btn-group">
                                                 <button type="button" class="btn btn-warning dropdown-toggle"
-                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                     Action
                                                 </button>
                                                 <div class="dropdown-menu">
@@ -915,7 +915,7 @@
                                             </div>
                                             <div class="btn-group">
                                                 <button type="button" class="btn btn-success dropdown-toggle"
-                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                     Action
                                                 </button>
                                                 <div class="dropdown-menu">
@@ -931,7 +931,7 @@
                                             </div>
                                             <div class="btn-group">
                                                 <button type="button" class="btn btn-secondary dropdown-toggle"
-                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                     Action
                                                 </button>
                                                 <div class="dropdown-menu">
@@ -947,7 +947,7 @@
                                             </div>
                                             <div class="btn-group">
                                                 <button type="button" class="btn btn-light dropdown-toggle"
-                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                     Action
                                                 </button>
                                                 <div class="dropdown-menu">
@@ -963,7 +963,7 @@
                                             </div>
                                             <div class="btn-group">
                                                 <button type="button" class="btn btn-dark dropdown-toggle"
-                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                     Action
                                                 </button>
                                                 <div class="dropdown-menu">
@@ -981,12 +981,12 @@
                                     </div>
                                     <div class="col-lg-6 mt-4">
                                         <h4 class="card-title">Split-button-dropdowns</h4>
-                                        <div class="btn-list">
+                                        <div class="">
                                             <div class="btn-group">
                                                 <button type="button" class="btn btn-danger">Action</button>
                                                 <button type="button"
                                                     class="btn btn-danger dropdown-toggle dropdown-toggle-split"
-                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                     <span class="sr-only">Toggle Dropdown</span>
                                                 </button>
                                                 <div class="dropdown-menu">
@@ -1004,7 +1004,7 @@
                                                 <button type="button" class="btn btn-warning">Action</button>
                                                 <button type="button"
                                                     class="btn btn-warning dropdown-toggle dropdown-toggle-split"
-                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                     <span class="sr-only">Toggle Dropdown</span>
                                                 </button>
                                                 <div class="dropdown-menu">
@@ -1022,7 +1022,7 @@
                                                 <button type="button" class="btn btn-success">Action</button>
                                                 <button type="button"
                                                     class="btn btn-success dropdown-toggle dropdown-toggle-split"
-                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                     <span class="sr-only">Toggle Dropdown</span>
                                                 </button>
                                                 <div class="dropdown-menu">
@@ -1040,7 +1040,7 @@
                                                 <button type="button" class="btn btn-info">Action</button>
                                                 <button type="button"
                                                     class="btn btn-info dropdown-toggle dropdown-toggle-split"
-                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                     <span class="sr-only">Toggle Dropdown</span>
                                                 </button>
                                                 <div class="dropdown-menu">
@@ -1058,7 +1058,7 @@
                                                 <button type="button" class="btn btn-secondary">Action</button>
                                                 <button type="button"
                                                     class="btn btn-secondary dropdown-toggle dropdown-toggle-split"
-                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                     <span class="sr-only">Toggle Dropdown</span>
                                                 </button>
                                                 <div class="dropdown-menu">
@@ -1076,7 +1076,7 @@
                                                 <button type="button" class="btn btn-light">Action</button>
                                                 <button type="button"
                                                     class="btn btn-light dropdown-toggle dropdown-toggle-split"
-                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                     <span class="sr-only">Toggle Dropdown</span>
                                                 </button>
                                                 <div class="dropdown-menu">
@@ -1094,7 +1094,7 @@
                                                 <button type="button" class="btn btn-dark">Action</button>
                                                 <button type="button"
                                                     class="btn btn-dark dropdown-toggle dropdown-toggle-split"
-                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                     <span class="sr-only">Toggle Dropdown</span>
                                                 </button>
                                                 <div class="dropdown-menu">
@@ -1116,7 +1116,7 @@
                                         <div class="btn-list">
                                             <div class="btn-group">
                                                 <button class="btn btn-secondary btn-lg dropdown-toggle" type="button"
-                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                     Large button
                                                 </button>
                                                 <div class="dropdown-menu">
@@ -1129,12 +1129,12 @@
                                             </div>
                                             <div class="btn-group">
                                                 <button class="btn btn-secondary btn-lg" type="button"
-                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                     Large button
                                                 </button>
                                                 <button type="button"
                                                     class="btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split"
-                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                     <span class="sr-only">Toggle Dropdown</span>
                                                 </button>
                                                 <div class="dropdown-menu">
@@ -1239,13 +1239,13 @@
                                                 class="highlighter-rouge">.btn</code> in <code
                                                 class="highlighter-rouge">.btn-group</code></h6>
                                         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-                                            <div class="btn-group mr-2" role="group" aria-label="First group">
+                                            <div class="btn-group me-2" role="group" aria-label="First group">
                                                 <button type="button" class="btn btn-secondary disabled">1</button>
                                                 <button type="button" class="btn btn-info">2</button>
                                                 <button type="button" class="btn btn-secondary">3</button>
                                                 <button type="button" class="btn btn-secondary">4</button>
                                             </div>
-                                            <div class="btn-group mr-2" role="group" aria-label="Second group">
+                                            <div class="btn-group me-2" role="group" aria-label="Second group">
                                                 <button type="button" class="btn btn-secondary">5</button>
                                                 <button type="button" class="btn btn-secondary">6</button>
                                                 <button type="button" class="btn btn-secondary">7</button>
@@ -1262,7 +1262,7 @@
                                         <h4 class="card-title">Button Toolbar with Input Group</h4>
                                         <div class="btn-toolbar mb-3" role="toolbar"
                                             aria-label="Toolbar with button groups">
-                                            <div class="btn-group mr-2" role="group" aria-label="First group">
+                                            <div class="btn-group me-2" role="group" aria-label="First group">
                                                 <button type="button" class="btn btn-secondary"><i
                                                         class="ti-move"></i></button>
                                                 <button type="button" class="btn btn-secondary"><i
@@ -1274,7 +1274,7 @@
                                             </div>
                                             <div class="input-group">
                                                 <div class="input-group-prepend">
-                                                    <div class="input-group-text" id="btnGroupAddon"><i
+                                                    <div class="input-group-text h-100" id="btnGroupAddon"><i
                                                             class="ti-email"></i></div>
                                                 </div>
                                                 <input type="text" class="form-control" placeholder="Subscribe Now"
@@ -1301,7 +1301,7 @@
                                             </div>
                                             <div class="input-group">
                                                 <div class="input-group-prepend">
-                                                    <div class="input-group-text" id="btnGroupAddon2"><i
+                                                    <div class="input-group-text h-100" id="btnGroupAddon2"><i
                                                             class="ti-email"></i></div>
                                                 </div>
                                                 <input type="text" class="form-control" placeholder="Subscribe Now"
@@ -1317,7 +1317,7 @@
                                         <h6 class="card-subtitle">Wrap a series of buttons with <code
                                                 class="highlighter-rouge">.btn</code> in <code
                                                 class="highlighter-rouge">.btn-group</code></h6>
-                                        <div class="btn-list">
+                                        <div class="">
                                             <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
                                                 <button type="button" class="btn btn-secondary">Left</button>
                                                 <button type="button" class="btn btn-secondary">Middle</button>
@@ -1354,7 +1354,7 @@
                                             <button type="button" class="btn btn-secondary">2</button>
                                             <div class="btn-group" role="group">
                                                 <button id="btnGroupDrop1" type="button"
-                                                    class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
+                                                    class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
                                                     aria-haspopup="true" aria-expanded="false">
                                                     Dropdown
                                                 </button>
@@ -1385,7 +1385,7 @@
                                             <button type="button" class="btn btn-secondary">Button</button>
                                             <div class="btn-group" role="group">
                                                 <button id="btnGroupVerticalDrop1" type="button"
-                                                    class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
+                                                    class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
                                                     aria-haspopup="true" aria-expanded="false">
                                                     Dropdown
                                                 </button>
@@ -1397,7 +1397,7 @@
                                             <button type="button" class="btn btn-secondary">Button</button>
                                             <div class="btn-group" role="group">
                                                 <button id="btnGroupVerticalDrop2" type="button"
-                                                    class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
+                                                    class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
                                                     aria-haspopup="true" aria-expanded="false">
                                                     Dropdown
                                                 </button>
@@ -1408,7 +1408,7 @@
                                             </div>
                                             <div class="btn-group" role="group">
                                                 <button id="btnGroupVerticalDrop3" type="button"
-                                                    class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
+                                                    class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
                                                     aria-haspopup="true" aria-expanded="false">
                                                     Dropdown
                                                 </button>
@@ -1419,7 +1419,7 @@
                                             </div>
                                             <div class="btn-group" role="group">
                                                 <button id="btnGroupVerticalDrop4" type="button"
-                                                    class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
+                                                    class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
                                                     aria-haspopup="true" aria-expanded="false">
                                                     Dropdown
                                                 </button>
@@ -1439,7 +1439,7 @@
                                         <h6 class="card-subtitle">There are a few easy ways to quickly get started with
                                             Bootstrap, each one ... </h6>
 
-                                        <div class="btn-group mt-3" data-toggle="buttons" role="group">
+                                        <div class="btn-group mt-3" data-bs-toggle="buttons" role="group">
                                             <label class="btn btn-outline btn-info">
                                                 <div class="custom-control custom-radio">
                                                     <input type="radio" id="customRadio1" name="options" value="male"
@@ -1471,7 +1471,7 @@
                                         <br />
                                         <br />
                                         <h4 class="card-title">Button with checkbox</h4>
-                                        <div class="btn-group" data-toggle="buttons">
+                                        <div class="btn-group" data-bs-toggle="buttons">
                                             <label class="btn btn-info active">
                                                 <div class="custom-control custom-checkbox mr-sm-2">
                                                     <input type="checkbox" class="custom-control-input" id="checkbox0"
@@ -1497,7 +1497,7 @@
                                         <br />
                                         <br />
                                         <h4 class="card-title">Button with Radiobutton</h4>
-                                        <div class="btn-group" data-toggle="buttons">
+                                        <div class="btn-group" data-bs-toggle="buttons">
                                             <label class="btn btn-primary active">
                                                 <div class="custom-control custom-radio">
                                                     <input type="radio" id="customRadio4" name="customRadio"
@@ -1545,7 +1545,7 @@
                                         <!-- Default dropright button -->
                                         <div class="btn-group dropright">
                                             <button type="button" class="btn btn-secondary dropdown-toggle"
-                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 Dropright
                                             </button>
                                             <div class="dropdown-menu">
@@ -1564,7 +1564,7 @@
                                             </button>
                                             <button type="button"
                                                 class="btn btn-secondary dropdown-toggle dropdown-toggle-split"
-                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 <span class="sr-only">Toggle Dropright</span>
                                             </button>
                                             <div class="dropdown-menu">
@@ -1582,7 +1582,7 @@
                                         <!-- Default dropup button -->
                                         <div class="btn-group dropup">
                                             <button type="button" class="btn btn-secondary dropdown-toggle"
-                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 Dropup
                                             </button>
                                             <div class="dropdown-menu">
@@ -1601,7 +1601,7 @@
                                             </button>
                                             <button type="button"
                                                 class="btn btn-secondary dropdown-toggle dropdown-toggle-split"
-                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 <span class="sr-only">Toggle Dropdown</span>
                                             </button>
                                             <div class="dropdown-menu">
@@ -1619,7 +1619,7 @@
                                         <!-- Default dropleft button -->
                                         <div class="btn-group dropleft">
                                             <button type="button" class="btn btn-secondary dropdown-toggle"
-                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 Dropleft
                                             </button>
                                             <div class="dropdown-menu">
@@ -1636,7 +1636,7 @@
                                             <div class="btn-group dropleft" role="group">
                                                 <button type="button"
                                                     class="btn btn-secondary dropdown-toggle dropdown-toggle-split"
-                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                     <span class="sr-only">Toggle Dropleft</span>
                                                 </button>
                                                 <div class="dropdown-menu">
@@ -1665,7 +1665,7 @@
                                     <code>.dropdown-menu</code> to right align the dropdown menu.</h5>
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-secondary dropdown-toggle"
-                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Right-aligned menu
                                     </button>
                                     <div class="dropdown-menu dropdown-menu-right">
@@ -1676,7 +1676,7 @@
                                 </div>
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-secondary dropdown-toggle"
-                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Left-aligned menu
                                     </button>
                                     <div class="dropdown-menu dropdown-menu-left">
@@ -1694,7 +1694,7 @@
                                 <h4 class="card-title">Responsive Alignment</h4>
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-secondary dropdown-toggle"
-                                        data-toggle="dropdown" data-display="static" aria-haspopup="true"
+                                        data-bs-toggle="dropdown" data-display="static" aria-haspopup="true"
                                         aria-expanded="false">
                                         Left-aligned but right aligned when large screen
                                     </button>
@@ -1706,7 +1706,7 @@
                                 </div>
                                 <div class="btn-group mt-2">
                                     <button type="button" class="btn btn-secondary dropdown-toggle"
-                                        data-toggle="dropdown" data-display="static" aria-haspopup="true"
+                                        data-bs-toggle="dropdown" data-display="static" aria-haspopup="true"
                                         aria-expanded="false">
                                         Right-aligned but left aligned when large screen
                                     </button>
@@ -1725,7 +1725,7 @@
                                 <h4 class="card-title">Different Menu Content</h4>
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-outline-info dropdown-toggle"
-                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Drodown with Header
                                     </button>
                                     <div class="dropdown-menu">
@@ -1736,7 +1736,7 @@
                                 </div>
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-outline-info dropdown-toggle"
-                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Dropdown with Divider
                                     </button>
                                     <div class="dropdown-menu">
@@ -1749,7 +1749,7 @@
                                 </div>
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-outline-info dropdown-toggle"
-                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Dropdown with Text
                                     </button>
                                     <div class="dropdown-menu p-4 text-muted" style="max-width: 400px;">
@@ -1763,7 +1763,7 @@
                                 </div>
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-outline-info dropdown-toggle"
-                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Dropdown with Form
                                     </button>
                                     <div class="dropdown-menu">
@@ -1792,9 +1792,9 @@
                                 </div>
                                 <h4 class="card-title mt-4">Dropdown Options</h4>
                                 <div class="d-flex">
-                                    <div class="dropdown mr-1">
+                                    <div class="dropdown me-1">
                                         <button type="button" class="btn btn-secondary dropdown-toggle"
-                                            id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true"
+                                            id="dropdownMenuOffset" data-bs-toggle="dropdown" aria-haspopup="true"
                                             aria-expanded="false" data-offset="10,20">
                                             Offset
                                         </button>
@@ -1808,7 +1808,7 @@
                                         <button type="button" class="btn btn-secondary">Reference</button>
                                         <button type="button"
                                             class="btn btn-secondary dropdown-toggle dropdown-toggle-split"
-                                            id="dropdownMenuReference" data-toggle="dropdown" aria-haspopup="true"
+                                            id="dropdownMenuReference" data-bs-toggle="dropdown" aria-haspopup="true"
                                             aria-expanded="false" data-reference="parent">
                                             <span class="sr-only">Toggle Dropdown</span>
                                         </button>
@@ -1840,7 +1840,7 @@
             <!-- footer -->
             <!-- ============================================================== -->
             <footer class="footer text-center text-muted">
-                All Rights Reserved by Adminmart. Designed and Developed by <a
+                All Rights Reserved by Freedash. Designed and Developed by <a
                     href="https://wrappixel.com">WrapPixel</a>.
             </footer>
             <!-- ============================================================== -->
@@ -1861,7 +1861,7 @@
     <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap tether Core JavaScript -->
     <script src="../assets/libs/popper.js/dist/umd/popper.min.js"></script>
-    <script src="../assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <!-- apps -->
     <!-- apps -->
     <script src="../dist/js/app-style-switcher.js"></script>

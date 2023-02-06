@@ -126,7 +126,7 @@
                             <h4 class="text-muted font-tofino-book mt-4 custom-lh">Free Bootstrap4 Admin theme built with html/css, ready to use for your next project.</h4>
                             <div class="pt-4 pb-4">
 
-                                <a href="javascript:void(0)" class="btn btn-custom btn-info btn-shadow-v1 downloadcount123 font-tofino-medium" data-toggle="modal" data-target="#download-modal">
+                                <a href="javascript:void(0)" class="btn btn-custom btn-info btn-shadow-v1 downloadcount123 font-tofino-medium" data-bs-toggle="modal" data-bs-target="#download-modal">
                                     <i data-feather="download" class="data-icon mr-2 mb-1"></i>
                                     Free Download</a>
                                 <a href="http://adminmart.com/src/html/index.html" target="_blank" class="text-decoration-none font-17 text-dark ml-4 font-tofino-medium border-bottom border-dark">Live
@@ -181,7 +181,7 @@
                                         class="stroke-primary list-icon mr-2"></i> 5+ Chart Examples & Lots more...</li>
                             </ul>
                             <div class="pt-3 pb-4">
-                                <a href="javascript:void(0)" class="btn downloadcount123 btn-custom btn-info btn-shadow-v1 font-tofino-medium" data-toggle="modal" data-target="#download-modal">
+                                <a href="javascript:void(0)" class="btn downloadcount123 btn-custom btn-info btn-shadow-v1 font-tofino-medium" data-bs-toggle="modal" data-bs-target="#download-modal">
                                     <i data-feather="download" class="data-icon mr-2 mb-1"></i>
                                     Free Download</a>
                                 <a href="http://adminmart.com/src/html/index.html" target="_blank" class="text-decoration-none text-dark font-17 ml-4 font-tofino-medium border-bottom border-dark">Live
@@ -275,7 +275,7 @@
             <!-- Link section -->
             <!-- ============================================================== -->
             <div class="my-5 text-center">
-                <a href="javascript:void(0)" class="btn btn-custom btn-info downloadcount123 btn-shadow-v1 font-tofino-medium" data-toggle="modal" data-target="#download-modal">
+                <a href="javascript:void(0)" class="btn btn-custom btn-info downloadcount123 btn-shadow-v1 font-tofino-medium" data-bs-toggle="modal" data-bs-target="#download-modal">
                     <i data-feather="download" class="data-icon mr-2 mb-1"></i>
                     Free Download</a>
                 <a href="http://adminmart.com/src/html/index.html" target="_blank" class="text-decoration-none text-dark font-17 ml-4 font-tofino-medium border-bottom border-dark">Live
