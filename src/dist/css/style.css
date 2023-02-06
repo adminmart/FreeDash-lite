@@ -16429,7 +16429,7 @@ sidebar navigation
 }
 .sidebar-nav #sidebarnav .list-divider {
   height: 1px;
-  background: #818181;
+  background: #2a3547;
   display: block;
   margin: 10px 0 20px 30px;
   opacity: 0.1;
@@ -16447,7 +16447,6 @@ sidebar navigation
   white-space: nowrap;
   align-items: center;
   line-height: 27px;
-  opacity: 0.7;
   margin-right: 17px;
 }
 .sidebar-nav #sidebarnav .sidebar-item .sidebar-link .feather-icon,
@@ -16669,15 +16668,15 @@ User Profile
   background: #fff;
 }
 #main-wrapper[data-layout=vertical] .left-sidebar[data-sidebarbg=skin6] .sidebar-nav ul .list-divider, #main-wrapper[data-layout=horizontal] .left-sidebar[data-sidebarbg=skin6] .sidebar-nav ul .list-divider {
-  background: #818181;
+  background: #2a3547;
 }
 #main-wrapper[data-layout=vertical] .left-sidebar[data-sidebarbg=skin6] .sidebar-nav ul .sidebar-item .sidebar-link, #main-wrapper[data-layout=horizontal] .left-sidebar[data-sidebarbg=skin6] .sidebar-nav ul .sidebar-item .sidebar-link {
-  color: #818181;
+  color: #2a3547;
 }
 #main-wrapper[data-layout=vertical] .left-sidebar[data-sidebarbg=skin6] .sidebar-nav ul .sidebar-item .sidebar-link .feather-icon,
 #main-wrapper[data-layout=vertical] .left-sidebar[data-sidebarbg=skin6] .sidebar-nav ul .sidebar-item .sidebar-link i, #main-wrapper[data-layout=horizontal] .left-sidebar[data-sidebarbg=skin6] .sidebar-nav ul .sidebar-item .sidebar-link .feather-icon,
 #main-wrapper[data-layout=horizontal] .left-sidebar[data-sidebarbg=skin6] .sidebar-nav ul .sidebar-item .sidebar-link i {
-  color: #9eabc0;
+  color: #2a3547;
 }
 #main-wrapper[data-layout=vertical] .left-sidebar[data-sidebarbg=skin6] .sidebar-nav ul .sidebar-item .first-level .sidebar-item.active > .sidebar-link.active,
 #main-wrapper[data-layout=vertical] .left-sidebar[data-sidebarbg=skin6] .sidebar-nav ul .sidebar-item .first-level .sidebar-item.active > .sidebar-link.active > i, #main-wrapper[data-layout=horizontal] .left-sidebar[data-sidebarbg=skin6] .sidebar-nav ul .sidebar-item .first-level .sidebar-item.active > .sidebar-link.active,
@@ -16693,7 +16692,7 @@ User Profile
   color: #000;
 }
 #main-wrapper[data-layout=vertical] .left-sidebar[data-sidebarbg=skin6] .sidebar-nav .has-arrow::after, #main-wrapper[data-layout=horizontal] .left-sidebar[data-sidebarbg=skin6] .sidebar-nav .has-arrow::after {
-  border-color: #818181;
+  border-color: #2a3547;
 }
 #main-wrapper[data-layout=vertical] .left-sidebar[data-sidebarbg=skin6] .sidebar-nav .user-content,
 #main-wrapper[data-layout=vertical] .left-sidebar[data-sidebarbg=skin6] .sidebar-nav .user-name,
