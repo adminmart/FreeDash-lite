@@ -1,58 +1,36 @@
-# <a href="https://modernize-vue3-free.netlify.app/?ref=5">Modernize-vuejs-free</a>
-Modernize vue3 + vite + typescript +vuetify 3 admin Template
+# <a href="https://demos.adminmart.com/free/bootstrap/modernize-bootstrap-lite/src/html/index.html/?ref=5">Modernize Free Bootstrap</a>
+Modernize Bootstrap 5 admin Template
 
 <!-- Main image of Template -->
-<a target="_blank" href="https://adminmart.com/product/modernize-vuetify-vue-admin-dashboard/?ref=5">
-  <img src="https://adminmart.com/wp-content/uploads/2023/02/modernize-free-vuetify-admin-dashboard-am.png" />
+<a target="_blank" href="https://adminmart.com/product/modernize-free-bootstrap-5-admin-template/?ref=5">
+  <img src="https://adminmart.com/wp-content/uploads/2023/02/modenize-free-bootstrap-admin-template.png" />
 </a>
 
-
-# Installation 👨🏻‍💻
-
-> We recommend you use npm
-
-1. Install all packages
-
-```
-npm i
-```
-
-2. Run Development Server
-
-```
-npm run dev
-```
-
-3. Build your project
-
-```
-npm run build
-```
 
 # Compare with Premium Version 🌓
 
 <table>
 <thead>
 <tr>
-<th>Modernize Vuejs Free Version</th>
-<th>Modernize Vuejs Pro Version</th>
+<th>Modernize Bootstrap Free Version</th>
+<th>Modernize Bootstrap Pro Version</th>
 </tr>
 </thead>
 <tbody>
 <tr>
   <td>
-    <a href="https://modernize-vue3-free.netlify.app/?ref=5">Live Preview</a>
+    <a href="https://demos.adminmart.com/free/bootstrap/modernize-bootstrap-lite/src/html/index.html/?ref=5">Live Preview</a>
   </td>
   <td>
-  <a href="https://modernize-vuejs.adminmart.com/?ref=5">Live Preview</a>
+  <a href="https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/landingpage/index.html/?ref=5">Live Preview</a>
   </td>
 </tr>
 <tr>
   <td>
-    <a href="https://adminmart.com/product/modernize-free-vuetify-vue-js-admin-dashboard/?ref=5">Download Now</a>
+    <a href="https://adminmart.com/product/modernize-free-bootstrap-5-admin-template/?ref=5">Download Now</a>
   </td>
   <td>
-    <a href="https://adminmart.com/product/modernize-vuetify-vue-admin-dashboard/?ref=5">Purchase Now</a>
+    <a href="https://adminmart.com/product/modernize-bootstrap-5-admin-template/?ref=5">Purchase Now</a>
   </td>
 </tr>
 <tr>
@@ -60,7 +38,7 @@ npm run build
   1 Basic Dashboard
   </td>
   <td>
-  2+ Stunning Dashboards
+  6+ Stunning Dashboards
   </td>
 </tr>
 <tr>
@@ -73,10 +51,10 @@ npm run build
 </tr>
 <tr>
   <td>
-  Vuetify 3
+  Bootstrap 5 Version
   </td>
   <td>
-  Vuetify 3
+  Bootstrap 5 Version
   </td>
 </tr>
 <tr>
@@ -89,10 +67,10 @@ npm run build
 </tr>
 <tr>
   <td>
-  7+ Pages Template
+  10+ Pages Template
   </td>
   <td>
-  50+ Page Templates
+  425+ Page Templates
   </td>
 </tr>
 <tr>
@@ -100,7 +78,7 @@ npm run build
   5+ UI Components
   </td>
   <td>
-  45+ UI Components
+  100+ UI Components
   </td>
 </tr>
 <tr>
@@ -125,6 +103,30 @@ npm run build
   </td>
   <td>
   Easy To Customize
+  </td>
+</tr>
+<tr>
+  <td>
+  -
+  </td>
+  <td>
+  Right-to-Left(RTL) Verion
+  </td>
+</tr>
+<tr>
+  <td>
+  -
+  </td>
+  <td>
+  25+ Integrated Plugins
+  </td>
+</tr>
+<tr>
+  <td>
+  -
+  </td>
+  <td>
+  1 Year Premium Support
   </td>
 </tr>
 </tbody>
@@ -171,12 +173,12 @@ npm run build
 
 # Upgrade to Premium version
 
-<a target="_blank" href="https://modernize-vuejs.adminmart.com/?ref=5">
-  <img src="https://adminmart.com/wp-content/uploads/2023/02/modernize-vuetify-admin-dashboard.png" alt="">
+<a target="_blank" href="https://adminmart.com/product/modernize-bootstrap-5-admin-template/?ref=5">
+  <img src="https://adminmart.com/wp-content/uploads/2023/02/modernize-bootstrap-5-admin-template.png" alt="">
 </a>
 <p>
-  Checkout our premium version of Modernize Vue Admin Lite for lots more features and ready to use page templates.<br>
-  <a href="https://modernize-vuejs.adminmart.com/?ref=5">Check Live Preview</a> | <a href="https://adminmart.com/product/modernize-vuetify-vue-admin-dashboard/?         ref=5">Download</a>
+  Checkout our premium version of Modernize Bootstrap Admin Lite for lots more features and ready to use page templates.<br>
+  <a href="https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/landingpage/index.html/?ref=5">Check Live Preview</a> | <a href="https://adminmart.com/product/modernize-bootstrap-5-admin-template/?ref=5">Download</a>
 </p>
 
 
