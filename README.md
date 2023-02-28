@@ -9,7 +9,7 @@ FreeDash Bootstrap 5 Admin Template
 
 # Versions
 
-<table>
+<table style="display: table;">
 <thead>
 <tr>
   <th>Bootstrap</th>
