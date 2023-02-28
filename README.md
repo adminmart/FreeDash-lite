@@ -1,4 +1,4 @@
-# <a href="https://demos.adminmart.com/free/bootstrap/freedash-lite/src/html/index.html/?ref=5">Freedash-bootstrap-free</a>
+# <a href="https://demos.adminmart.com/free/bootstrap/freedash-lite/src/html/index.html/?ref=5">Freedash-bootstrap-lite</a>
 FreeDash Bootstrap 5 Admin Template
 
 <!-- Main image of Template -->
@@ -34,8 +34,8 @@ npm run build
 <table>
 <thead>
 <tr>
-<th>Modernize Vuejs Free Version</th>
-<th>Modernize Vuejs Pro Version</th>
+<th>FreeDash Bootstrap Free Version</th>
+<th>FreeDash Bootstrap Pro Version</th>
 </tr>
 </thead>
 <tbody>
@@ -60,7 +60,7 @@ npm run build
   1 Basic Dashboard
   </td>
   <td>
-  2+ Stunning Dashboards
+  6+ Stunning Dashboards
   </td>
 </tr>
 <tr>
@@ -73,10 +73,10 @@ npm run build
 </tr>
 <tr>
   <td>
-  Vuetify 3
+  Bootstrap 5 Version
   </td>
   <td>
-  Vuetify 3
+  Bootstrap 5 Version
   </td>
 </tr>
 <tr>
@@ -89,18 +89,18 @@ npm run build
 </tr>
 <tr>
   <td>
-  7+ Pages Template
+  35+ Pages Template
   </td>
   <td>
-  50+ Page Templates
+  425+ Page Templates
   </td>
 </tr>
 <tr>
   <td>
-  5+ UI Components
+  15+ UI Components
   </td>
   <td>
-  45+ UI Components
+  100+ UI Components
   </td>
 </tr>
 <tr>
