@@ -46,7 +46,7 @@ FreeDash Bootstrap 5 Admin Template
 
 
 <!-- Versions of Template -->
-<h2><a id="user-content-versions" class="anchor" aria-hidden="true" href="#versions"></a>Versions</h2>
+# Versions
 <table>
 <thead>
 <tr>
