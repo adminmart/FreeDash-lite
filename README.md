@@ -1,4 +1,4 @@
-# <a href="https://demos.adminmart.com/free/bootstrap/freedash-lite/src/html/index.html/?ref=5">Modernize-vuejs-free</a>
+# <a href="https://demos.adminmart.com/free/bootstrap/freedash-lite/src/html/index.html/?ref=5">Freedash-bootstrap-free</a>
 FreeDash Bootstrap 5 Admin Template
 
 <!-- Main image of Template -->
