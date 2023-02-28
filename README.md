@@ -21,22 +21,22 @@ FreeDash Bootstrap 5 Admin Template
 <tbody>
   <tr>
     <td>
-      <a href="https://adminmart.com/product/modernize-bootstrap-5-admin-template/?ref=5" rel="nofollow">
+      <a href="https://adminmart.com/product/modernize-bootstrap-5-admin-template/?ref=5" rel="nofollow" width="150px">
         <img src="https://adminmart.com/wp-content/uploads/2023/02/modernize-bootstrap-5-admin-template.png" alt="">
       </a>
     </td>
     <td>
-      <a href="https://adminmart.com/product/modernize-react-mui-dashboard-theme/?ref=5" rel="nofollow">
+      <a href="https://adminmart.com/product/modernize-react-mui-dashboard-theme/?ref=5" rel="nofollow" width="150px">
         <img src="https://adminmart.com/wp-content/uploads/2023/01/image_2023_01_26T10_19_25_019Z.png" alt="">
       </a>
     </td>
     <td>
-      <a href="https://adminmart.com/product/modernize-vuetify-vue-admin-dashboard/?ref=5" rel="nofollow">
+      <a href="https://adminmart.com/product/modernize-vuetify-vue-admin-dashboard/?ref=5" rel="nofollow" width="150px">
         <img src="https://adminmart.com/wp-content/uploads/2023/02/modernize-vuetify-admin-dashboard.png" alt="">
       </a>
     </td>
     <td>
-      <a href="https://adminmart.com/product/modernize-nuxt-js-admin-dashboard/?ref=5" rel="nofollow">
+      <a href="https://adminmart.com/product/modernize-nuxt-js-admin-dashboard/?ref=5" rel="nofollow" width="150px">
         <img src="https://adminmart.com/wp-content/uploads/2023/02/modernize-nuxt-js-admin-dashboard.png" alt="">
       </a>
     </td>
