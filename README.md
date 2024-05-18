@@ -1,4 +1,4 @@
-# <a href="https://demos.adminmart.com/free/bootstrap/freedash-lite/src/html/index.html">Freedash-bootstrap-lite</a>
+# <a href="https://adminmart.com/product/freedash-bootstrap-5-admin-template/">Freedash-bootstrap-lite</a>
 FreeDash Bootstrap 5 Admin Template
 
 <!-- Main image of Template -->
